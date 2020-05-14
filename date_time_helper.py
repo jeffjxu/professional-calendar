@@ -1,5 +1,5 @@
 # format a date string into mm/dd/yyyy
-# :param date - a date string
+# :param date (str) - a date string
 # :return: a string of mm/dd/yyyy
 def format_date(date):
   months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
@@ -15,7 +15,7 @@ def format_date(date):
   return m + '/' + d + '/' + y  
 
 # parse a string from Handshake containing date and time
-# :param date_time - a string containing date and time
+# :param date_time (str) - a string containing date and time
 # :return: a tuple of start_date, end_date, start_time, end_time, timezone
 def parse_date_time(date_time):
   date_time = date_time.split(', ')

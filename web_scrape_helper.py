@@ -7,7 +7,7 @@ from date_time_helper import *
 import re, time
 
 # sets up a headless Firefox webdriver
-# :param wait - the implicit wait time of the driver
+# :param wait (int) - the implicit wait time of the driver
 # :return: a webdriver object 
 def setup(wait):
   opts = Options()
@@ -18,8 +18,8 @@ def setup(wait):
 
 # performs log in on Handshake with user credentials
 # :param driver - a webdriver object
-# :param email - the user email address
-# :param password - the user password
+# :param email (str) - the user email address
+# :param password (str) - the user password
 # :return: None
 def login(driver, email, password):
   driver.get("https://cmu.joinhandshake.com/login?requested_authentication_method=standard")
@@ -47,8 +47,8 @@ def login(driver, email, password):
 
 # retrives detail of a Handshake event
 # :param driver - a webdriver object
-# :event_url - the url of an event page
-# :wait - implicit wait time of the webdriver
+# :event_url (str) - the url of an event page
+# :wait (int) - implicit wait time of the webdriver
 # :return: result - a dictionary of event detail
 def event_detail(driver, event_url, wait):
   driver.execute_script("window.open('');")
@@ -122,7 +122,7 @@ def event_detail(driver, event_url, wait):
 
 # retrives detail of a Handshake career fair
 # :param driver - a webdriver object
-# :event_url - the url of a career fair page
+# :event_url (str) - the url of a career fair page
 # :return: result - a dictionary of career fair detail
 def career_fair_detail(driver, event_url):
   driver.execute_script("window.open('');")
@@ -180,7 +180,7 @@ def career_fair_detail(driver, event_url):
 
 # fetch detail of all events and career fairs under Handshake's "Events" tab
 # :param driver - a webdriver object
-# :param wait - implicit wait time of the webdriver
+# :param wait (int) - implicit wait time of the webdriver
 # :return results - a dictionary of all event detail
 def fetch_events(driver, wait):
   #go to event page
