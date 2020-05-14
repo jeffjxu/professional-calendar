@@ -69,34 +69,6 @@
     "location": "Any Handshake student with a link to this event can view and RSVP",
     "description": "McKinsey &amp; Company are excited to announce that registration is open for PROHACK, our very first online EEMA hackathon for data scientists across CIS, the Middle East, Turkey, Pakistan and Africa. Participants can work independently or in teams of up to 4 to develop efficient business solutions using data science, and the top 20 teams will share a $25,000 prize!\n \nThe task details and dataset will be available May 18, and the deadline to upload solutions is June 21. Please note that anyone can join before the last day (June 21) to PROHACK! Registrations are now open at http://prohack.org with easy sign up \u2013 no applications and no resume screenings! \n\nShare in your personal LinkedIn and social media accounts: \nLinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:6661229957630476288/\nFacebook: https://www.facebook.com/reallifeatmckinsey/videos/233139794455878/"
   },
-  "https://cmu.joinhandshake.com/events/493671": {
-    "name": "NNSA Graduate Fellowship Program Virtual Information Session May 14, 2020",
-    "dates": [
-      {
-        "start_date": "4/14/2020",
-        "end_date": "n/a",
-        "start_time": "2:00pm",
-        "end_time": "3:00pm",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "https://pnnl.zoom.us/s/97768211013?pwd=ak1LTjV2QkxqV1ZLc2plSlYwb08yUT09",
-    "description": "Register in advance for this webinar:\nhttps://pnnl.zoom.us/webinar/register/WN_7BC-YrRcTJSKvYNjSwRU0A \n\nFellowships Available: Protect our nation\u2019s security as a Department of Energy NNSA Graduate Fellow. NGFP is seeking highly motivated graduate-level students to grow as the next generation of national security leaders. The one-year, salaried (with benefits) fellowships offer: \u2022 Hands-on experience in national security and nonproliferation; \u2022 Career development, professional networking, and specialized training events; and \u2022 Extensive interaction and collaboration with leading national security technology and policy experts. These positions are open to students actively pursuing their master\u2019s or doctoral degree as well as students who have achieved their graduate degree within the past 18 months. Details about the program can be found on at https://www.pnnl.gov/projects/ngfp The current application deadline is October 2, 2020 for positions that will begin in June 2021."
-  },
-  "https://cmu.joinhandshake.com/events/476645": {
-    "name": "Cultivating Careers - The Power to Choose",
-    "dates": [
-      {
-        "start_date": "4/14/2020",
-        "end_date": "n/a",
-        "start_time": "3:00pm",
-        "end_time": "4:00pm",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "https://bankcampuscareers.tal.net/vx/brand-4/candidate/so/pm/1/pl/2/opp/5665-Cultivating-Careers-The-Power-to-Choose/en-GB",
-    "description": "Cultivating Careers - The Power to Choose is a focused event to provide sophomores the opportunity to gain insight to Bank of America's Business Support Functions.\n\nBank of America\u2019s Business Support functions act as internal consultants for our various lines of business by helping the bank achieve its key strategic initiatives and meet our businesses\u2019 goals.  Roles across business support give you the power to own your career and find your own path at the bank in areas such as Corporate Finance, Audit, Risk, Human Resources, and Procurement.\n\nDuring this session, students will hear from current participants in our 2 year rotational programs and have the opportunity to learn about their career paths thus far.  \n\nPlease register below. After you have registered, use the following link to access the webcast at the time of the live broadcast. \n\n\nhttps://event.on24.com/wcc/r/2244836/DEDA7D8DE283F578837F80B8210C4153"
-  },
   "https://cmu.joinhandshake.com/events/492353": {
     "name": "Adapt And Rise: Unique ways of working in a new world",
     "dates": [
@@ -276,7 +248,7 @@
         "timezone": "EDT"
       }
     ],
-    "location": "https://tcs.webex.com/tcs/j.php?MTID=mf46edcd6f0f8fe38d094c93b577d3ead",
+    "location": "Any Handshake student with a link to this event can view and RSVP",
     "description": "As a follow up to the session on Analytics and Insights with focus on data, we are coming back to host a Data Jamming Session. \n\nThis will be our first session in our Data Jamming series! Data enthusiasts, come join us to learn about this contest involving data collection! We will introduce the data collection topic which will focus on \"Correcting Design Defects in Economic and Corporate Models\" from a students perspective in current times."
   },
   "https://cmu.joinhandshake.com/events/493368": {
@@ -404,6 +376,20 @@
     ],
     "location": "http://maps.google.com/?q=Virtual%20Career%20Fair%20Using%20Brazen",
     "description": "Are you still looking for a full-time job? Not to worry! The Carnegie Mellon University Alumni Virtual Career Fairis an opportunity to connect with employers who are hiring for all roles.  This is the first time we have held a virtual career fair for the CMU Alumni population so you will not want to miss out!Ifyouareacurrentstudentyoumayattendthisfairifyouaregraduatingin May/August2020.\nTo register for this event please visit: https://app.brazenconnect.com/a/cmu_career/e/48R1M\nThe CMU Alumni Virtual Career Fair occurs on May 28 from 1:00pm - 3:00pm EDT.  Please note the following reminders and instructions for the event. We will be using the platform Brazen for the virtual fair. https://app.brazenconnect.com/a/cmu_career/e/48R1M\n1) Before the event starts, log-in to Brazen to update your registration page if you haven\u2019t already (top-right corner under your name). This registration page will allow you to add a resume and other key information for employers to view. To participate, you can log in with the same link to begin. https://app.brazenconnect.com/a/cmu_career/e/48R1M\n2) Chats with employers have been set to 12 minutes. This time goes quickly, so I recommend brainstorming a few main takeaways that you would hope to capture/share before the time expires (i.e., contact information, job titles, next-step instructions, etc.) These are text-based chats \u2013 not video chats.\n4) Click hereand scroll down to watch a video on what to expect."
+  },
+  "https://cmu.joinhandshake.com/events/501850": {
+    "name": "Data Jamming Session 2",
+    "dates": [
+      {
+        "start_date": "4/29/2020",
+        "end_date": "n/a",
+        "start_time": "11:00am",
+        "end_time": "1:00pm",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "Any Handshake student with a link to this event can view and RSVP",
+    "description": "As a follow up to the session on Analytics and Insights with focus on data, we are coming back to host a Data Jamming Session. \n\nThis is the second session in our Data jamming series! We will be going over the data collections from students from our first session and discussing insights and predictions!"
   },
   "https://cmu.joinhandshake.com/events/486086": {
     "name": "*OPT Information Session - ONLY THROUGH ZOOM! WILL NOT BE IN-PERSON!",
