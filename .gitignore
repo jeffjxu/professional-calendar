@@ -1,2 +1,4 @@
 credentials.json
+geckodriver.log
 __pycache__/
+token.pickle

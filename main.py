@@ -19,4 +19,5 @@ def main():
     print('Event data exported to events.json')
     print('Data parsed in ' + str(time.time() - start) + ' seconds') 
 
-main()
+if __name__ == '__main__':
+  main()
