@@ -28,7 +28,6 @@ def preprocessText():
     
 
 def main():
-    n_classes = len(sys.argv) - 1
     trainingSet = preprocessText()
 
 if __name__ == "__main__":
