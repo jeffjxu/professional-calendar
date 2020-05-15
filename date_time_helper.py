@@ -12,7 +12,7 @@ def format_date(date):
   else:
     d = date[1][0:2]
 
-  m = str(months.index(date[0]))
+  m = str(months.index(date[0])+1)
   if len(m) == 1:
     m = '0' + m
 
@@ -55,5 +55,9 @@ def parse_date_time(date_time):
     timezone = date_time[4].split()[2]
   return (start_date, end_date, start_time, end_time, timezone)
 
-def convert_datetime(time, date, timezone):
-  return '%sT%s-07:00' % (time, date)
+# convert a date and time to datetime string for Google Calendar
+# :param time (str) - time in hh:mm:ss
+# :param date (str) - date in yyyy-mm-dd
+# :return (str) - timeTdate-07:00 (only works for Eastern time for now)
+def convert_datetime(time, date):
+  return '%sT%s-07:00' % (date, time)

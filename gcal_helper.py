@@ -5,6 +5,7 @@ import json
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+from date_time_helper import *
 
 # create a Google Calendar API endpoint
 # :param scopes (list) - a list of strings containing auth links
@@ -123,16 +124,19 @@ def create_event_resource(event_url, raw_event):
         'location': raw_event['location'],
         'description': create_description(event_url, raw_event['description']),
         'start': {
-          'dateTime': date['start_time'],
-          'timeZone': date['timezone']
+          'dateTime': convert_datetime(date['start_time'], date['start_date']),
+          'timeZone': "America/New_York"
         },
         'end': {
-          'dateTime': date['end_time'],
-          'timeZone': date['timezone']
+          'dateTime': convert_datetime(date['end_time'], date['start_date']),
+          'timeZone': "America/New_York"
         }
       }
       events.append(event)
   return events
 
-def add_one_event(service, cal_id, event):
-  return 
+def add_one_event(service, cal_id, event, event_url):
+  event_resources = create_event_resource(event_url, event)
+  for event_resource in event_resources:
+    event = service.events().insert(calendarId=cal_id, body=event_resource).execute()
+  print('Event created: %s' % (event.get('htmlLink')))
