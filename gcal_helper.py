@@ -86,3 +86,53 @@ def get_all_events(service, cal_id, file):
     json.dump(results, outfile, indent=2)
     print('Event data exported to ' + file)
     print(total, count)
+
+# print all user calendar to console
+# :param service - a Google Calendar API endpoint
+def list_all_cal(service):
+  page_token = None
+  while True:
+    calendar_list = service.calendarList().list(pageToken=page_token).execute()
+    for calendar_list_entry in calendar_list['items']:
+      print(calendar_list_entry['summary'] + ', ' + calendar_list_entry['id'])
+    page_token = calendar_list.get('nextPageToken')
+    if not page_token:
+      break
+
+# create a description for event resource
+# :param url (str) - a Handshake url of the event
+# :param description (str) - a description of the event
+# :return description (str) - url and description within the 8148 character limit
+def create_description(url, description):
+  url = 'Handshake link: ' + url + "\n\n"
+  max_length = 8148 - len(url) - 1
+  description = url + description[0:max_length] 
+  return description
+
+# create a Google Calendar event resource from a parased event
+# :param event_url (str) - a Handshake url of the event
+# :param raw_event (json object) - parsed data of the event
+def create_event_resource(event_url, raw_event):
+  events = []
+  if len(raw_event['dates']) == 1 and raw_event['dates'][0]['end_date'] != 'n/a':
+    pass
+  else:
+    for date in raw_event['dates']:
+      event = {
+        'summary': raw_event['name'],
+        'location': raw_event['location'],
+        'description': create_description(event_url, raw_event['description']),
+        'start': {
+          'dateTime': date['start_time'],
+          'timeZone': date['timezone']
+        },
+        'end': {
+          'dateTime': date['end_time'],
+          'timeZone': date['timezone']
+        }
+      }
+      events.append(event)
+  return events
+
+def add_one_event(service, cal_id, event):
+  return 

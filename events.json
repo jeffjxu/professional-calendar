@@ -1,26 +1,12 @@
 {
-  "https://cmu.joinhandshake.com/events/338425": {
-    "name": "*Olitsky Family Foundation Career Readiness Program at CMU",
-    "dates": [
-      {
-        "start_date": "7/12/2019",
-        "end_date": "4/15/2020",
-        "start_time": "8:00am",
-        "end_time": "5:00pm",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "http://maps.google.com/?q=Pittsburgh,%20Pennsylvania,%20United%20States%20of%20America",
-    "description": "The Carnegie Mellon University campus is committed to providing a culture of inclusion and breaking down barriers that inhibit our students, of all needs and abilities, from reaching their full personal, academic and professional potential. The goal of the Olitsky Family Foundation Career Readiness Program at CMU is to break down the barriers-of-entry for students with emotional and cognitive differences in their career-search process. The program takes a unique, 3-pronged approach by engaging our 1) students, 2) local campus community and 3) employer partners in various events to achieve long-term, sustainable success for our students.\n\nAs part of this program, you will have the opportunity to:\n\n1) Work 1-on-1 with a career coach to develop your own, individualized goal plan and build the skills needed to write a resume, find a job &amp;/ internship, practice your interview skills, and receive support on anything else related to your career search process.\n\n2) Participate in the Fall and Spring Career Readiness Series, workshops to enhance your professional knowledge and skills. Throughout the event you will have the opportunity to learn the basics of the job-search process, practice professional skills in a safe, risk-free environment, and simulate a real-life, mock-interview experience with local employers.\n\n3) Engage in a Student-Employer Connect Event to connect and network with local employers in a structured and risk-free environment. This event will allow you to apply professional skills, as well as provide our employers with a chance to meet candidates from many local Pittsburgh universities.\n\nPlease contact Amy Tavares with questions about this program and specific workshop dates at atavares@andrew.cmu.edu"
-  },
   "https://cmu.joinhandshake.com/events/476377": {
     "name": "Diversity & Inclusion Webinar Series",
     "dates": [
       {
-        "start_date": "3/6/2020",
-        "end_date": "7/26/2020",
-        "start_time": "12:00pm",
-        "end_time": "7:00pm",
+        "start_date": "2020-03-06",
+        "end_date": "2020-07-26",
+        "start_time": "24:00:00",
+        "end_time": "19:00:00",
         "timezone": "EDT"
       }
     ],
@@ -31,10 +17,10 @@
     "name": "IBM Call for Code University Edition",
     "dates": [
       {
-        "start_date": "3/22/2020",
-        "end_date": "6/31/2020",
-        "start_time": "12:00pm",
-        "end_time": "11:55pm",
+        "start_date": "2020-03-22",
+        "end_date": "2020-06-31",
+        "start_time": "24:00:00",
+        "end_time": "23:55:00",
         "timezone": "EDT"
       }
     ],
@@ -45,10 +31,10 @@
     "name": "Translational Biomedical Research Management M.S. - graduate program info session",
     "dates": [
       {
-        "start_date": "3/23/2020",
-        "end_date": "4/31/2020",
-        "start_time": "6:00pm",
-        "end_time": "6:00pm",
+        "start_date": "2020-03-23",
+        "end_date": "2020-04-31",
+        "start_time": "18:00:00",
+        "end_time": "18:00:00",
         "timezone": "EDT"
       }
     ],
@@ -59,66 +45,38 @@
     "name": "McKinsey & Company: Our very first EEMA Hackathon: PROHACK",
     "dates": [
       {
-        "start_date": "3/27/2020",
-        "end_date": "5/21/2020",
-        "start_time": "12:00pm",
-        "end_time": "11:55pm",
+        "start_date": "2020-03-27",
+        "end_date": "2020-05-21",
+        "start_time": "24:00:00",
+        "end_time": "23:55:00",
         "timezone": "EDT"
       }
     ],
     "location": "Any Handshake student with a link to this event can view and RSVP",
     "description": "McKinsey &amp; Company are excited to announce that registration is open for PROHACK, our very first online EEMA hackathon for data scientists across CIS, the Middle East, Turkey, Pakistan and Africa. Participants can work independently or in teams of up to 4 to develop efficient business solutions using data science, and the top 20 teams will share a $25,000 prize!\n \nThe task details and dataset will be available May 18, and the deadline to upload solutions is June 21. Please note that anyone can join before the last day (June 21) to PROHACK! Registrations are now open at http://prohack.org with easy sign up \u2013 no applications and no resume screenings! \n\nShare in your personal LinkedIn and social media accounts: \nLinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:6661229957630476288/\nFacebook: https://www.facebook.com/reallifeatmckinsey/videos/233139794455878/"
   },
-  "https://cmu.joinhandshake.com/events/492353": {
-    "name": "Adapt And Rise: Unique ways of working in a new world",
-    "dates": [
-      {
-        "start_date": "4/15/2020",
-        "end_date": "n/a",
-        "start_time": "1:00pm",
-        "end_time": "2:30pm",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "Any Handshake student with a link to this event can view and RSVP",
-    "description": "How do you turn the current world challenges and respective workplace dislocation, into opportunities? How can you embrace new ways of working and make them a distinctive strength?\n\nJoin us for an interactive session on the unique ways of working, learning and acing interviews in today\u2019s virtually connected world \u2013 get ready to adapt and rise!"
-  },
   "https://cmu.joinhandshake.com/events/474647": {
-    "name": "Public Financial Management: Virtual Excel Training",
+    "name": "Public Financial Management: Virtual Excel Training - REGISTRATION IS CLOSED",
     "dates": [
       {
-        "start_date": "4/15/2020",
-        "end_date": "4/22/2020",
-        "start_time": "1:00pm",
-        "end_time": "3:00pm",
+        "start_date": "2020-04-15",
+        "end_date": "2020-04-22",
+        "start_time": "13:00:00",
+        "end_time": "15:00:00",
         "timezone": "EDT"
       }
     ],
     "location": "https://careers-pfm.icims.com/jobs/1516/pfm%3a-virtual-excel-training/job",
     "description": "Join Public Financial Management for a two-session Excel Training via webinar on Friday, May 15th and Friday, May 22nd. Each session will run from 1:00-3:00PM EST and you are encouraged to attend both, as the second session will build off of skills acquired during the first session!\n\n The first session will cover Excel navigation, keyboard shortcuts and some of the more basic Excel functions. The second session will focus on some of the essential Excel functions for financial modeling.\n\nThis is a FREE virtual training! \n\n***REGISTER ON OUR EXTERNAL WEBSITE! LINK ABOVE!***\n\nIn order to register, you must be a student who is currently enrolled in an undergraduate or graduate college program or have graduated from such programs within one year, and must demonstrate interest in the public finance/asset management industries as evidenced by academic coursework, activities, internships/work experience, and/or your statement of interest. We will notify registrants of their attendance status and with additional information no later than May 11, 2020."
   },
-  "https://cmu.joinhandshake.com/events/493212": {
-    "name": "*How to be a Remote Employee: Effective Tips for Working Remotely",
-    "dates": [
-      {
-        "start_date": "4/15/2020",
-        "end_date": "n/a",
-        "start_time": "3:00pm",
-        "end_time": "4:00pm",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "https://cmu.zoom.us/meeting/register/tJ0pdeugrTkpGNSDdbHEdZmEYIHqV-LbbB-A",
-    "description": "Will this be your first time working remotely? \nDo you have questions about how to be an effective employee from the comfort of your own home? \n\nYour Career Consultants will address answers to these questions and provide best practices for you to have the most successful virtual internship this summer / full-time virtual job experience!\n\nRegistration is required, to register for the Workshop in Zoom use the link below- PLEASE USE YOUR CMU ANDREW EMAIL: https://cmu.zoom.us/meeting/register/tJ0pdeugrTkpGNSDdbHEdZmEYIHqV-LbbB-A\n\nAfter registering, you will receive a confirmation email containing information about joining the workshop.  To log in to the session on the day of the event, follow this link: https://cmu.zoom.us/j/99422832320"
-  },
   "https://cmu.joinhandshake.com/events/490693": {
     "name": "*Udemy LIVE Q&A",
     "dates": [
       {
-        "start_date": "4/18/2020",
+        "start_date": "2020-04-18",
         "end_date": "n/a",
-        "start_time": "1:00am",
-        "end_time": "2:00pm",
+        "start_time": "01:00:00",
+        "end_time": "14:00:00",
         "timezone": "EDT"
       }
     ],
@@ -129,10 +87,10 @@
     "name": "Career Info Session | Oliver Wyman - Careers in Consulting",
     "dates": [
       {
-        "start_date": "4/19/2020",
+        "start_date": "2020-04-19",
         "end_date": "n/a",
-        "start_time": "3:00pm",
-        "end_time": "4:00pm",
+        "start_time": "15:00:00",
+        "end_time": "16:00:00",
         "timezone": "+03"
       }
     ],
@@ -143,10 +101,10 @@
     "name": "KLA Virtual Career Fair - May 19th!",
     "dates": [
       {
-        "start_date": "4/19/2020",
+        "start_date": "2020-04-19",
         "end_date": "n/a",
-        "start_time": "1:00pm",
-        "end_time": "3:05pm",
+        "start_time": "13:00:00",
+        "end_time": "15:05:00",
         "timezone": "EDT"
       }
     ],
@@ -157,10 +115,10 @@
     "name": "Conquering Client Conversations",
     "dates": [
       {
-        "start_date": "4/19/2020",
-        "end_date": "4/21/2020",
-        "start_time": "2:00pm",
-        "end_time": "3:00pm",
+        "start_date": "2020-04-19",
+        "end_date": "2020-04-21",
+        "start_time": "14:00:00",
+        "end_time": "15:00:00",
         "timezone": "EDT"
       }
     ],
@@ -171,10 +129,10 @@
     "name": "*OPT Information Session - ONLY THROUGH ZOOM! WILL NOT BE IN-PERSON!",
     "dates": [
       {
-        "start_date": "4/19/2020",
+        "start_date": "2020-04-19",
         "end_date": "n/a",
-        "start_time": "2:00pm",
-        "end_time": "3:30pm",
+        "start_time": "14:00:00",
+        "end_time": "15:30:00",
         "timezone": "EDT"
       }
     ],
@@ -185,10 +143,10 @@
     "name": "Veritas Prep Virtual Info Session for Educators (Round 2!)",
     "dates": [
       {
-        "start_date": "4/19/2020",
+        "start_date": "2020-04-19",
         "end_date": "n/a",
-        "start_time": "3:00pm",
-        "end_time": "4:00pm",
+        "start_time": "15:00:00",
+        "end_time": "16:00:00",
         "timezone": "EDT"
       }
     ],
@@ -199,10 +157,10 @@
     "name": "*Webinar* HubSpot Presents: Empowering Equity and Leading with Inclusion",
     "dates": [
       {
-        "start_date": "4/19/2020",
+        "start_date": "2020-04-19",
         "end_date": "n/a",
-        "start_time": "4:00pm",
-        "end_time": "5:15pm",
+        "start_time": "16:00:00",
+        "end_time": "17:15:00",
         "timezone": "EDT"
       }
     ],
@@ -213,10 +171,10 @@
     "name": "The Virtual Job Search: How to stand out while staying in",
     "dates": [
       {
-        "start_date": "4/20/2020",
+        "start_date": "2020-04-20",
         "end_date": "n/a",
-        "start_time": "6:00pm",
-        "end_time": "7:00pm",
+        "start_time": "18:00:00",
+        "end_time": "19:00:00",
         "timezone": "EDT"
       }
     ],
@@ -227,10 +185,10 @@
     "name": "Emerging Leaders Summit: Sparking Fire within Young Professionals",
     "dates": [
       {
-        "start_date": "4/21/2020",
+        "start_date": "2020-04-21",
         "end_date": "n/a",
-        "start_time": "3:00pm",
-        "end_time": "6:00pm",
+        "start_time": "15:00:00",
+        "end_time": "18:00:00",
         "timezone": "EDT"
       }
     ],
@@ -241,24 +199,38 @@
     "name": "Data Jamming Session 1 - Participate and Win exciting Prizes",
     "dates": [
       {
-        "start_date": "4/22/2020",
+        "start_date": "2020-04-22",
         "end_date": "n/a",
-        "start_time": "11:00am",
-        "end_time": "12:00pm",
+        "start_time": "11:00:00",
+        "end_time": "24:00:00",
         "timezone": "EDT"
       }
     ],
     "location": "Any Handshake student with a link to this event can view and RSVP",
     "description": "As a follow up to the session on Analytics and Insights with focus on data, we are coming back to host a Data Jamming Session. \n\nThis will be our first session in our Data Jamming series! Data enthusiasts, come join us to learn about this contest involving data collection! We will introduce the data collection topic which will focus on \"Correcting Design Defects in Economic and Corporate Models\" from a students perspective in current times."
   },
+  "https://cmu.joinhandshake.com/events/501864": {
+    "name": "*PhD Industry Job Search",
+    "dates": [
+      {
+        "start_date": "2020-04-22",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "14:30:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJwqdOqgrzkuG9EVwwy3eb85VGE50jO6AMvr",
+    "description": "Career Consultant Marcie Foy will lead a presentation and Q&amp;A session for PhD Students focused on conducting a successful industry job search. This session will provide strategies and tools to leverage as you conduct your search. Topics include: creating an industry resume, conducting an efficient job search, job search process and timing, networking and interviewing.\n\nRegistration is required, to register for the Workshop in Zoom use the link below- PLEASE USE YOUR CMU ANDREW EMAIL: https://cmu.zoom.us/meeting/register/tJwqdOqgrzkuG9EVwwy3eb85VGE50jO6AMvr\n\nAfter registering, you will receive a confirmation email containing information about joining the workshop. To log in to the session on the day of the event, follow this link: https://cmu.zoom.us/j/98733812415"
+  },
   "https://cmu.joinhandshake.com/events/493368": {
     "name": "*How to Make the Most of your Summer: Build Skills and Experiences Employers Want",
     "dates": [
       {
-        "start_date": "4/22/2020",
+        "start_date": "2020-04-22",
         "end_date": "n/a",
-        "start_time": "3:00pm",
-        "end_time": "4:00pm",
+        "start_time": "15:00:00",
+        "end_time": "16:00:00",
         "timezone": "EDT"
       }
     ],
@@ -269,10 +241,10 @@
     "name": "Virtual HireUp Career Fair Hosted by the Pittsburgh Technology Council",
     "dates": [
       {
-        "start_date": "4/27/2020",
+        "start_date": "2020-04-27",
         "end_date": "n/a",
-        "start_time": "11:00am",
-        "end_time": "3:00pm",
+        "start_time": "11:00:00",
+        "end_time": "15:00:00",
         "timezone": "EDT"
       }
     ],
@@ -283,10 +255,10 @@
     "name": "*Nurture Your Mental Health During Your Job Search",
     "dates": [
       {
-        "start_date": "4/27/2020",
+        "start_date": "2020-04-27",
         "end_date": "n/a",
-        "start_time": "12:00pm",
-        "end_time": "1:00pm",
+        "start_time": "24:00:00",
+        "end_time": "13:00:00",
         "timezone": "EDT"
       }
     ],
@@ -297,10 +269,10 @@
     "name": "2020 FUTURE NOW Media & Entertainment Conference",
     "dates": [
       {
-        "start_date": "4/27/2020",
-        "end_date": "4/29/2020",
-        "start_time": "12:00pm",
-        "end_time": "5:00pm",
+        "start_date": "2020-04-27",
+        "end_date": "2020-04-29",
+        "start_time": "24:00:00",
+        "end_time": "17:00:00",
         "timezone": "EDT"
       }
     ],
@@ -311,10 +283,10 @@
     "name": "Learn2Lead - Crowe Summer Leadership Program",
     "dates": [
       {
-        "start_date": "4/27/2020",
-        "end_date": "4/28/2020",
-        "start_time": "12:00pm",
-        "end_time": "4:00pm",
+        "start_date": "2020-04-27",
+        "end_date": "2020-04-28",
+        "start_time": "24:00:00",
+        "end_time": "16:00:00",
         "timezone": "CDT"
       }
     ],
@@ -325,10 +297,10 @@
     "name": "Brooke Charter Schools Associate Teacher Virtual Information Session",
     "dates": [
       {
-        "start_date": "4/27/2020",
+        "start_date": "2020-04-27",
         "end_date": "n/a",
-        "start_time": "3:00pm",
-        "end_time": "3:45pm",
+        "start_time": "15:00:00",
+        "end_time": "15:45:00",
         "timezone": "EDT"
       }
     ],
@@ -339,10 +311,10 @@
     "name": "City Year Virtual Info Session (East Region)",
     "dates": [
       {
-        "start_date": "4/27/2020",
+        "start_date": "2020-04-27",
         "end_date": "n/a",
-        "start_time": "4:30pm",
-        "end_time": "5:30pm",
+        "start_time": "16:30:00",
+        "end_time": "17:30:00",
         "timezone": "EDT"
       }
     ],
@@ -353,10 +325,10 @@
     "name": "2020 FUTURE NOW Media & Entertainment Conference",
     "dates": [
       {
-        "start_date": "4/27/2020",
-        "end_date": "4/29/2020",
-        "start_time": "6:30pm",
-        "end_time": "5:00pm",
+        "start_date": "2020-04-27",
+        "end_date": "2020-04-29",
+        "start_time": "18:30:00",
+        "end_time": "17:00:00",
         "timezone": "EDT"
       }
     ],
@@ -367,10 +339,10 @@
     "name": "VIRTUAL EVENT: Carnegie Mellon University Alumni Virtual Career Fair 2020",
     "dates": [
       {
-        "start_date": "4/28/2020",
+        "start_date": "2020-04-28",
         "end_date": "n/a",
-        "start_time": "1:00pm",
-        "end_time": "3:00pm",
+        "start_time": "13:00:00",
+        "end_time": "15:00:00",
         "timezone": "EDT"
       }
     ],
@@ -381,10 +353,10 @@
     "name": "Data Jamming Session 2",
     "dates": [
       {
-        "start_date": "4/29/2020",
+        "start_date": "2020-04-29",
         "end_date": "n/a",
-        "start_time": "11:00am",
-        "end_time": "1:00pm",
+        "start_time": "11:00:00",
+        "end_time": "13:00:00",
         "timezone": "EDT"
       }
     ],
@@ -395,10 +367,10 @@
     "name": "*OPT Information Session - ONLY THROUGH ZOOM! WILL NOT BE IN-PERSON!",
     "dates": [
       {
-        "start_date": "5/8/2020",
+        "start_date": "2020-05-08",
         "end_date": "n/a",
-        "start_time": "9:00am",
-        "end_time": "10:30am",
+        "start_time": "09:00:00",
+        "end_time": "10:30:00",
         "timezone": "EDT"
       }
     ],
@@ -409,10 +381,10 @@
     "name": "Quantitative Investment Careers at Fidelity",
     "dates": [
       {
-        "start_date": "5/18/2020",
+        "start_date": "2020-05-18",
         "end_date": "n/a",
-        "start_time": "4:00pm",
-        "end_time": "5:30pm",
+        "start_time": "16:00:00",
+        "end_time": "17:30:00",
         "timezone": "EDT"
       }
     ],
@@ -423,10 +395,10 @@
     "name": "BCG Full-Time Opportunities Coffee Chats [Screened Event]",
     "dates": [
       {
-        "start_date": "5/19/2020",
+        "start_date": "2020-05-19",
         "end_date": "n/a",
-        "start_time": "9:00am",
-        "end_time": "1:00pm",
+        "start_time": "09:00:00",
+        "end_time": "13:00:00",
         "timezone": "EDT"
       }
     ],
@@ -437,24 +409,24 @@
     "name": "NNSA Graduate Fellowship Program (NGFP)",
     "dates": [
       {
-        "start_date": "5/24/2020",
+        "start_date": "2020-05-24",
         "end_date": "n/a",
-        "start_time": "2:00pm",
-        "end_time": "3:00pm",
+        "start_time": "14:00:00",
+        "end_time": "15:00:00",
         "timezone": "PDT"
       }
     ],
-    "location": "https://pnnl.zoom.us/s/96698052454?pwd=N3ZBMTR5dGNJU2lUL1RGSkpMTVVCZz09",
+    "location": "https://pnnl.zoom.us/webinar/register/WN_AUPVfZS2TYewdeaFki8XiQ",
     "description": "Register in advance for this webinar: https://pnnl.zoom.us/webinar/register/WN_AUPVfZS2TYewdeaFki8XiQ  \nFellowships Available: Protect our nation\u2019s security as a Department of Energy NNSA Graduate Fellow. NGFP is seeking highly motivated graduate-level students to grow as the next generation of national security leaders. The one-year, salaried (with benefits) fellowships offer: \n\u2022 Hands-on experience in national security and nonproliferation; \n\u2022 Career development, professional networking, and specialized training events; and \n\u2022 Extensive interaction and collaboration with leading national security technology and policy experts.\nThese positions are open to students actively pursuing their master\u2019s or doctoral degree as well as students who have achieved their graduate degree within the past 18 months. Details about the program can be found on at https://www.pnnl.gov/projects/ngfp The current application deadline is October 2, 2020 for positions that will begin in June 2021."
   },
   "https://cmu.joinhandshake.com/events/486087": {
     "name": "*OPT Information Session - ONLY THROUGH ZOOM! WILL NOT BE IN-PERSON!",
     "dates": [
       {
-        "start_date": "6/15/2020",
+        "start_date": "2020-06-15",
         "end_date": "n/a",
-        "start_time": "12:30pm",
-        "end_time": "2:00pm",
+        "start_time": "24:30:00",
+        "end_time": "14:00:00",
         "timezone": "EDT"
       }
     ],
@@ -465,10 +437,10 @@
     "name": "MTR Virtual Visit",
     "dates": [
       {
-        "start_date": "6/30/2020",
+        "start_date": "2020-06-30",
         "end_date": "n/a",
-        "start_time": "2:15pm",
-        "end_time": "3:15pm",
+        "start_time": "14:15:00",
+        "end_time": "15:15:00",
         "timezone": "CDT"
       }
     ],
