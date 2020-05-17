@@ -20,20 +20,42 @@ def format_date(date):
 
   return '%s-%s-%s' % (y, m, d)
 
-def format_time(time):
-  if len(time) == 6:
-    hour = time[0]
-    minute = time[2:4]
-  else:
-    hour = time[0:2]
-    minute = time[3:5]
+# def format_time(time):
+#   if len(time) == 6:
+#     hour = time[0]
+#     minute = time[2:4]
+#   else:
+#     hour = time[0:2]
+#     minute = time[3:5]
 
-  if 'pm' in time:
-    hour = str(int(hour) + 12)
-  if len(hour) == 1:
-    hour = '0' + hour
-  return '%s:%s:%s' % (hour, minute, '00')
+#   if 'pm' in time:
+#     hour = str(int(hour) + 12)
+#   if len(hour) == 1:
+#     hour = '0' + hour
   
+#   time = '%s:%s:%s' % (hour, minute, '00')
+#   return time
+
+def format_time(time): 
+  if len(time) == 6:
+    time = '0' + time
+  # Checking if last two elements of time 
+  # is AM and first two elements are 12 
+  if time[-2:] == "am" and time[:2] == "12": 
+    return "00" + time[2:-2] + ':00'
+        
+  # remove the AM     
+  elif time[-2:] == "am": 
+    return time[:-2] + ':00'
+    
+  # Checking if last two elements of time 
+  # is PM and first two elements are 12    
+  elif time[-2:] == "pm" and time[:2] == "12": 
+    return time[:-2] + ':00'
+        
+  else:  
+    # add 12 to hours and remove PM 
+    return str(int(time[:2]) + 12) + time[2:5] + ':00'
 
 # parse a string from Handshake containing date and time
 # :param date_time (str) - a string containing date and time

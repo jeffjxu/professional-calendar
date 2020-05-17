@@ -177,9 +177,17 @@ def clear_calendar(service, cal_id):
   while True:
     events = service.events().list(calendarId=cal_id, pageToken=page_token).execute()
     for event in events['items']:
-      delete_one_event(service, cal_id, event_id)
+      delete_one_event(service, cal_id, event['id'])
       print('Deleted event: ' + event['summary'])
     page_token = events.get('nextPageToken')
     if not page_token:
       break
   print("Cleared all events on " + cal_id)
+
+# add events to a calendar
+# :param service - a Google Calendar API endpoint
+# :param events (json object) - a collection of raw event data
+# :param cal_id (str) - calendar id
+def add_all_events(service, events, cal_id):
+  for event_url in events:
+    add_one_event(service, cal_id, events[event_url], event_url)
