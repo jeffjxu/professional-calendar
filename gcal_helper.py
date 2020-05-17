@@ -135,8 +135,26 @@ def create_event_resource(event_url, raw_event):
       events.append(event)
   return events
 
+# add one event to a calendar
+# :param service - a Google Calendar API endpoint
+# :param cal_id (int) - calendar id
+# :param event (json object) - parsed data of a event
+# :param event_url (str) - url of a event
 def add_one_event(service, cal_id, event, event_url):
   event_resources = create_event_resource(event_url, event)
   for event_resource in event_resources:
     event = service.events().insert(calendarId=cal_id, body=event_resource).execute()
   print('Event created: %s' % (event.get('htmlLink')))
+
+#not working
+def clear_calendar(service, cal_id):
+  page_token = None
+  while True:
+    events = service.events().list(calendarId=cal_id, pageToken=page_token).execute()
+    for event in events['items']:
+      service.events().delete(calendarId=cal_id, eventId=event['id']).execute()
+      print('Deleted event: ' + event['summary'])
+    page_token = events.get('nextPageToken')
+    if not page_token:
+      break
+  print("Cleared all events on " + cal_id)
