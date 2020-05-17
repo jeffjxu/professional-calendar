@@ -115,8 +115,24 @@ def create_description(url, description):
 # :param raw_event (json object) - parsed data of the event
 def create_event_resource(event_url, raw_event):
   events = []
+
+  # create an all day event
   if len(raw_event['dates']) == 1 and raw_event['dates'][0]['end_date'] != 'n/a':
-    pass
+    event = {
+      'summary': raw_event['name'],
+      'location': raw_event['location'],
+      'description': create_description(event_url, raw_event['description']),
+      'start': {
+        'date': raw_event['dates'][0]['start_date'],
+        'timeZone': "America/New_York"
+      },
+      'end': {
+        'date': raw_event['dates'][0]['end_date'],
+        'timeZone': 'America/New_York'
+      }
+    }
+    events = [event]
+  # create a standard event
   else:
     for date in raw_event['dates']:
       event = {
@@ -137,7 +153,7 @@ def create_event_resource(event_url, raw_event):
 
 # add one event to a calendar
 # :param service - a Google Calendar API endpoint
-# :param cal_id (int) - calendar id
+# :param cal_id (str) - calendar id
 # :param event (json object) - parsed data of a event
 # :param event_url (str) - url of a event
 def add_one_event(service, cal_id, event, event_url):
@@ -146,13 +162,22 @@ def add_one_event(service, cal_id, event, event_url):
     event = service.events().insert(calendarId=cal_id, body=event_resource).execute()
   print('Event created: %s' % (event.get('htmlLink')))
 
-#not working
+# delete one event from a calendar
+# :param service - a Google Calendar API endpoint
+# :param cal_id (str) - calendar id
+# :param event_id (str) - event id
+def delete_one_event(service, cal_id, event_id):
+  service.events().delete(calendarId=cal_id, eventId=event_id).execute()
+
+# clear all events from a calendar
+# :param service - a Google Calendar API endpoint
+# :param cal_id (str) - calendar id
 def clear_calendar(service, cal_id):
   page_token = None
   while True:
     events = service.events().list(calendarId=cal_id, pageToken=page_token).execute()
     for event in events['items']:
-      service.events().delete(calendarId=cal_id, eventId=event['id']).execute()
+      delete_one_event(service, cal_id, event_id)
       print('Deleted event: ' + event['summary'])
     page_token = events.get('nextPageToken')
     if not page_token:
