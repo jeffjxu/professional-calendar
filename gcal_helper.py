@@ -156,11 +156,14 @@ def create_event_resource(event_url, raw_event):
 # :param cal_id (str) - calendar id
 # :param event (json object) - parsed data of a event
 # :param event_url (str) - url of a event
+# :return: event_id (str) - Google Calendar event ID of the added event
 def add_one_event(service, cal_id, event, event_url):
   event_resources = create_event_resource(event_url, event)
   for event_resource in event_resources:
     event = service.events().insert(calendarId=cal_id, body=event_resource).execute()
   print('Event created: %s' % (event.get('htmlLink')))
+
+  return event.get('id')
 
 # delete one event from a calendar
 # :param service - a Google Calendar API endpoint
@@ -168,6 +171,7 @@ def add_one_event(service, cal_id, event, event_url):
 # :param event_id (str) - event id
 def delete_one_event(service, cal_id, event_id):
   service.events().delete(calendarId=cal_id, eventId=event_id).execute()
+  print('Deleted event: '+ event_id)
 
 # clear all events from a calendar
 # :param service - a Google Calendar API endpoint
@@ -190,4 +194,33 @@ def clear_calendar(service, cal_id):
 # :param cal_id (str) - calendar id
 def add_all_events(service, events, cal_id):
   for event_url in events:
-    add_one_event(service, cal_id, events[event_url], event_url)
+    event_id = add_one_event(service, cal_id, events[event_url], event_url)
+    events[event_url]['event_id'] = event_id
+  
+  return events
+
+# compare a dictionary of events against a file of past events and find the difference
+# :param event (dict) - new events
+# :return: event_ids (list) - Google Calendar event IDs for events that has been updated
+# :return: new_events (dict) - a dictionary of new events
+def compare_events(events):
+  try:
+    with open('past_events.json') as f:
+      past_events = json.load(f)
+  except:
+    past_events = dict()
+  
+  new_events = dict()
+  event_ids = list()
+  for event in events:
+    if event in past_events:
+      if (events[event]['name'] != past_events[event]['name'] or
+          events[event]['dates'] != past_events[event]['dates'] or
+          events[event]['description'] != past_events[event]['description'] or
+          events[event]['location'] != past_events[event]['location']):
+        event_ids.append(event)
+        new_events[event] = events[event]
+    else:
+      new_events[event] = events[event]
+
+  return event_ids, new_events

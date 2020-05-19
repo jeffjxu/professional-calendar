@@ -4,7 +4,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from date_time_helper import *
-import re, time
+import re, time, json
 
 # sets up a headless Firefox webdriver
 # :param wait (int) - the implicit wait time of the driver
@@ -115,7 +115,9 @@ def event_detail(driver, event_url, wait):
       'timezone': timezone
     }],
     'location': location,
-    'description': description
+    'description': description,
+    'type': 'general',
+    'event_id':'n/a'
   }
 
   return result
@@ -173,7 +175,9 @@ def career_fair_detail(driver, event_url):
     'name': name,
     'dates': dates,
     'location': location,
-    'description': description
+    'description': description,
+    'type': 'general',
+    'event_id': 'n/a'
   }
 
   return result

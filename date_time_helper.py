@@ -20,22 +20,9 @@ def format_date(date):
 
   return '%s-%s-%s' % (y, m, d)
 
-# def format_time(time):
-#   if len(time) == 6:
-#     hour = time[0]
-#     minute = time[2:4]
-#   else:
-#     hour = time[0:2]
-#     minute = time[3:5]
-
-#   if 'pm' in time:
-#     hour = str(int(hour) + 12)
-#   if len(hour) == 1:
-#     hour = '0' + hour
-  
-#   time = '%s:%s:%s' % (hour, minute, '00')
-#   return time
-
+# format time for Google Calendar event resource
+# :param time (str) - time in 12 hour format
+# :return: (str) - time in 24 hour format with seconds
 def format_time(time): 
   if len(time) == 6:
     time = '0' + time
