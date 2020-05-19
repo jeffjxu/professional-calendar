@@ -79,54 +79,6 @@
     "type": "general",
     "event_id": "n/a"
   },
-  "https://cmu.joinhandshake.com/events/501634": {
-    "name": "Career Info Session | Oliver Wyman - Careers in Consulting",
-    "dates": [
-      {
-        "start_date": "2020-05-19",
-        "end_date": "n/a",
-        "start_time": "15:00:00",
-        "end_time": "16:00:00",
-        "timezone": "+03"
-      }
-    ],
-    "location": "https://cmu.zoom.us/j/93695182590",
-    "description": "Learn about careers in consulting with Oliver Wyman, who recently set up a new office here in Qatar.\nA major consulting firm trusted by some of the largest companies in the world, who are poised to grow their operations in Qatar, over the coming year.",
-    "type": "general",
-    "event_id": "n/a"
-  },
-  "https://cmu.joinhandshake.com/events/498808": {
-    "name": "KLA Virtual Career Fair - May 19th!",
-    "dates": [
-      {
-        "start_date": "2020-05-19",
-        "end_date": "n/a",
-        "start_time": "13:00:00",
-        "end_time": "15:05:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "https://www.kla-tencor.com/company/events/virtual-career-fair-2020-05",
-    "description": "Register to Discover How You Can Advance Humanity Forward\n\nAspiring students and professionals will have a chance to hear from KLA\u2019s CEO Rick Wallace about the company\u2019s role in the most significant technological breakthroughs.\n\nVirtually no laptop, smartphone, wearable device, voice-controlled gadget, flexible screen, VR device or smart car would have made it into your hands without us. At our virtual Career Fair, you'll have a chance to connect with our hiring managers and learn about our job opportunities, culture, offer and vision. Listen in as they cover why this is one of the most attractive times to join KLA.",
-    "type": "general",
-    "event_id": "n/a"
-  },
-  "https://cmu.joinhandshake.com/events/486084": {
-    "name": "*OPT Information Session - ONLY THROUGH ZOOM! WILL NOT BE IN-PERSON!",
-    "dates": [
-      {
-        "start_date": "2020-05-19",
-        "end_date": "n/a",
-        "start_time": "14:00:00",
-        "end_time": "15:30:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "Cohon University Center, Danforth Conference Room, 2nd Floor , Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213, USA",
-    "description": "NOTE: For this session, you CAN ONLY attend via Zoom. The Zoom meeting information will be emailed to the students who have registered for this event the day before the OPT Session.\nJoin Zoom Meeting \nhttps://cmu.zoom.us/j/96380466301 \n\n\nThis OPT Session will NO longer be held in-person. So if you want to attend this session, you MUST attend via Zoom. \n\nThe Office of International Education (OIE) will offer OPT information and application sessions for F-1 students who will be completing their programs in 2020 \n\nIf you are planning to apply for OPT, it is mandatory that you attend an OPT session. We cannot schedule individual advising appointments to provide this information, so plan ahead! Normal processing time for USCIS to process OPT is 3 to 5 months.\n\nYOU MUST BE ON TIME and attend the entire session!\n\nWe will start promptly ON TIME!\n\nIf you are late, you will have to register for another session.  \n\nYou can also find helpful information on the OIE website.\n\nBest, \nOIE Staff\nCarnegie Mellon University\nOffice of International Education\nCyert Hall, 1st Floor/Ste. 101\n412-268-5231\nhttp://www.cmu.edu/oie/",
-    "type": "general",
-    "event_id": "n/a"
-  },
   "https://cmu.joinhandshake.com/events/500536": {
     "name": "Conquering Client Conversations",
     "dates": [
@@ -140,38 +92,6 @@
     ],
     "location": "http://www.cvent.com/events/pnc-campus-conquering-client-conversation-webinar-series/event-summary-4b3ab4e62f8b42c798c42dd7567aef42.aspx",
     "description": "Please join us for a series of virtual sessions to learn more about PNC Financial Services Group and how we use award winning culture to provide a tailored banking experience for our clients. Over the course of 3 sessions, we will be exploring how analysts provide real world solutions for our clients. Come prepared to engage with us!\n\nSessions will be held from 2:00-3:00pm EST on the following days:\n\n\u2022Tuesday, May 19th Phase 1: Meeting the Client's Asset Management Needs\n\u2022 Wednesday, May 20th Phase 2: Leveraging Lines of Credit \n\u2022 Thursday, May 21st Phase 3: Tech Talk\n\nQualifications:\n\u2022 Currently a freshman, sophomore, or junior\n\u2022 3.0 GPA or Higher\n\u2022 Interest in the Financial Services industry\n\nInterested? Please be sure to register for your session(s) of interest using the link below at least 48 hours before the scheduled session.\n\n**You MUST register for the event via the link below.**\nhttp://www.cvent.com/events/pnc-campus-conquering-client-conversation-webinar-series/event-summary-4b3ab4e62f8b42c798c42dd7567aef42.aspx",
-    "type": "general",
-    "event_id": "n/a"
-  },
-  "https://cmu.joinhandshake.com/events/495107": {
-    "name": "Veritas Prep Virtual Info Session for Educators (Round 2!)",
-    "dates": [
-      {
-        "start_date": "2020-05-19",
-        "end_date": "n/a",
-        "start_time": "15:00:00",
-        "end_time": "16:00:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "Any Handshake student with a link to this event can view and RSVP",
-    "description": "Interested in teaching next year? Find out why you should teach at Veritas Prep! Join school leaders and teachers from our middle schools in Springfield and Holyoke, MA, to learn more about us.  Register at https://forms.gle/LoxoHem8SZAN4CLx9 to get the Zoom link!\n\nCan't make it? Check out our Careers Page at https://www.veritasprepcharterschool.org/careers for a full list of open positions for SY21 or email recruitment@vpcs.org to set up an informational call.",
-    "type": "general",
-    "event_id": "n/a"
-  },
-  "https://cmu.joinhandshake.com/events/478131": {
-    "name": "*Webinar* HubSpot Presents: Empowering Equity and Leading with Inclusion",
-    "dates": [
-      {
-        "start_date": "2020-05-19",
-        "end_date": "n/a",
-        "start_time": "16:00:00",
-        "end_time": "17:15:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "Any Handshake student with a link to this event can view and RSVP",
-    "description": "A more equitable world can create a more equal world. Join us for a webinar panel discussion celebrating International Women's Day. We'll discuss empowering equity in the boardroom, in leadership, closing the wage gap and how to empower ourselves and others in the workplace and beyond.",
     "type": "general",
     "event_id": "n/a"
   },
@@ -208,7 +128,7 @@
     "event_id": "n/a"
   },
   "https://cmu.joinhandshake.com/events/490981": {
-    "name": "Data Jamming Session 1 - Participate and Win exciting Prizes",
+    "name": "TCS Analytics & Insights \u2018data brew & data jam\u2019 session on the study of Consumerism in the aftermath of COVID19",
     "dates": [
       {
         "start_date": "2020-05-22",
@@ -219,7 +139,7 @@
       }
     ],
     "location": "Any Handshake student with a link to this event can view and RSVP",
-    "description": "As a follow up to the session on Analytics and Insights with focus on data, we are coming back to host a Data Jamming Session. \n\nThis will be our first session in our Data Jamming series! Data enthusiasts, come join us to learn about this contest involving data collection! We will introduce the data collection topic which will focus on \"Correcting Design Defects in Economic and Corporate Models\" from a students perspective in current times.",
+    "description": "As a follow up to the session on Analytics and Insights with focus on data, we are coming back to host a Data Jamming Session. \n\nThis will be our first session in our Data Jamming series! Data enthusiasts, come join us to learn about this contest involving data collection! We will introduce the data collection topic which will focus on \"Correcting Design Defects in Economic and Corporate Models\" from a students perspective in current times.\n\nSession 1: Friday, May 22, 2020 11 AM - 12 PM EST\nhttps://app.joinhandshake.com/events/490981\n\n\u2022      Intro about TCS A&amp;I &amp; \u2018anti-consumerism\u2019 \n\n\u2022      Data Brew &amp; Jam concept and format\n\n\u2022      Student group formation (5-10 members)\n\n\u2022      Deep dive into the survey &amp; what's expected from you by next Friday. \n\nSession 2: Friday, May 29, 2020 11 AM - 1 PM EST\nhttps://app.joinhandshake.com/events/501850\n\n\u2022      Data Brew : Survey outcome discussion by Student groups \n\n\u2022      Data Jam : Open discussion and Q&amp;A for \n\n\u2022      Possible insights from Data analysis,\n\n\u2022      Machine Learning / NLP, Speech2Text\n\n\u2022      TCS team to discuss format &amp; deliverables of final presentations for next Friday \n\nSession 3: Friday, June 5, 2020  11 AM - 1:30 PM EST\nhttps://app.joinhandshake.com/events/501861\n\n\u2022      Student group\u2019s final presentation \n\n\u2022      12-15 mins per each group | Maximum 5 slides | BI/ML demo",
     "type": "general",
     "event_id": "n/a"
   },
@@ -271,22 +191,6 @@
     "type": "general",
     "event_id": "n/a"
   },
-  "https://cmu.joinhandshake.com/events/495749": {
-    "name": "*Nurture Your Mental Health During Your Job Search",
-    "dates": [
-      {
-        "start_date": "2020-05-27",
-        "end_date": "n/a",
-        "start_time": "12:00:00",
-        "end_time": "13:00:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "https://cmu.zoom.us/j/96335602381?pwd=Z3BSQjRhcjJUWUNibGlsd0lQR0lVZz09",
-    "description": "Learn how to care for your mental health while looking for jobs in this changing career landscape with Jeff Beyer and Dareen Basma, psychotherapists from CMU\u2019s Counseling and Psychological Services (CaPS) and Amy Tavares, the Disability Resources Intern from the Career and Professional Development Center (CPDC). \n\nHave questions related to mental health and the job search? Submit them here: https://forms.gle/Sw6LCRdGuj4WXxZd8",
-    "type": "general",
-    "event_id": "n/a"
-  },
   "https://cmu.joinhandshake.com/events/489545": {
     "name": "2020 FUTURE NOW Media & Entertainment Conference",
     "dates": [
@@ -300,6 +204,22 @@
     ],
     "location": "http://www.futurenowconference.com/",
     "description": "APPLY NOW: http://www.futurenowconference.com/the-conference\n\nFUTURE NOW Media &amp; Entertainment Conference is the first conference of its kind, bringing unprecedented access and opportunity for leaders on the forefront of the industry and top college and graduate students to connect, learn, and grow together!\n\nThe industry\u2019s most influential leaders, senior executives and professionals share insights about the broadcast, cable and digital media businesses along with the latest trends and emerging technologies. Through keynotes, panel discussions, workshops and intimate mentoring sessions, media professionals share about how to succeed in the industry and the range of possible job opportunities.\n\nThis is a rare and incredible learning and networking opportunity for students to make meaningful connections that will better prepare and position them to pursue their careers upon graduation.\n\nThe application materials of those accepted to attend the conference are included in a TALENT RESOURCE PORTFOLIO that FUTURE NOW provides to sponsors and executives in attendance as a resource to help fill internship and job openings. This is not a guarantee for a job, but it is a great opportunity for students to get noticed by companies present at the conference and not get lost in an online abyss!",
+    "type": "general",
+    "event_id": "n/a"
+  },
+  "https://cmu.joinhandshake.com/events/495749": {
+    "name": "*Nurture Your Mental Health During Your Job Search",
+    "dates": [
+      {
+        "start_date": "2020-05-27",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/j/96335602381?pwd=Z3BSQjRhcjJUWUNibGlsd0lQR0lVZz09",
+    "description": "Learn how to care for your mental health while looking for jobs in this changing career landscape with Jeff Beyer and Dareen Basma, psychotherapists from CMU\u2019s Counseling and Psychological Services (CaPS) and Amy Tavares, the Disability Resources Intern from the Career and Professional Development Center (CPDC). \n\nHave questions related to mental health and the job search? Submit them here: https://forms.gle/Sw6LCRdGuj4WXxZd8",
     "type": "general",
     "event_id": "n/a"
   },
@@ -384,7 +304,7 @@
     "event_id": "n/a"
   },
   "https://cmu.joinhandshake.com/events/501850": {
-    "name": "Data Jamming Session 2",
+    "name": "TCS Analytics & Insights \u2018data brew & data jam\u2019 session 2",
     "dates": [
       {
         "start_date": "2020-05-29",
@@ -519,22 +439,6 @@
         "end_date": "n/a",
         "start_time": "14:15:00",
         "end_time": "15:15:00",
-        "timezone": "CDT"
-      }
-    ],
-    "location": "Any Handshake student with a link to this event can view and RSVP",
-    "description": "- A one-hour webinar-style virtual visit for prospective residency applicants.\n - Explore MTR\u2019s mission of equal education and residency model of teacher training\n - Hear from MTR  leadership and current participants\n - Ask questions",
-    "type": "general",
-    "event_id": "n/a"
-  },
-  "https://cmu.joinhandshake.com/events/test": {
-    "name": "MTR Virtual Visit2",
-    "dates": [
-      {
-        "start_date": "2020-07-30",
-        "end_date": "n/a",
-        "start_time": "15:15:00",
-        "end_time": "16:15:00",
         "timezone": "CDT"
       }
     ],

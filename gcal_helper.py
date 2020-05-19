@@ -140,12 +140,10 @@ def create_event_resource(event_url, raw_event):
         'location': raw_event['location'],
         'description': create_description(event_url, raw_event['description']),
         'start': {
-          'dateTime': convert_datetime(date['start_time'], date['start_date']),
-          'timeZone': "America/New_York"
+          'dateTime': convert_datetime(date['start_time'], date['start_date'], date['timezone']),
         },
         'end': {
-          'dateTime': convert_datetime(date['end_time'], date['start_date']),
-          'timeZone': "America/New_York"
+          'dateTime': convert_datetime(date['end_time'], date['start_date'], date['timezone']),
         }
       }
       events.append(event)
