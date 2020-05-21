@@ -132,6 +132,7 @@ def create_event_resource(event_url, raw_event):
       }
     }
     events = [event]
+    
   # create a standard event
   else:
     for date in raw_event['dates']:
@@ -211,13 +212,15 @@ def compare_events(events):
   new_events = dict()
   event_ids = list()
   for event in events:
+    # if event has been updated on Handshake, add that to new events
     if event in past_events:
-      if (events[event]['name'] != past_events[event]['name'] or
-          events[event]['dates'] != past_events[event]['dates'] or
-          events[event]['description'] != past_events[event]['description'] or
-          events[event]['location'] != past_events[event]['location']):
+      if ((events[event]['name'] != past_events[event]['name'] and events[event]['name'] != 'n/a') or
+          (events[event]['dates'] != past_events[event]['dates'] and events[event]['dates'] != 'n/a') or
+          (events[event]['description'] != past_events[event]['description'] and events[event]['description'] != 'n/a') or
+          (events[event]['location'] != past_events[event]['location'] and events[event]['location'] != 'n/a')):
         event_ids.append(event)
         new_events[event] = events[event]
+    # if event is new, add that to new events
     else:
       new_events[event] = events[event]
 

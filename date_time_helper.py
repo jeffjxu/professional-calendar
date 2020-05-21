@@ -51,6 +51,8 @@ def format_time(time):
 # :return: a tuple of start_date, end_date, start_time, end_time, timezone
 def parse_date_time(date_time):
   date_time = date_time.split(', ')
+
+  # parse date for a standard event
   if len(date_time) == 3:
     start_date = format_date(date_time[1])
     end_date = 'n/a'
@@ -58,6 +60,8 @@ def parse_date_time(date_time):
     start_time = format_time(time[0] + time[1])
     end_time = format_time(time[3] + time[4])
     timezone = time[5]
+
+  # parse date for a career fair
   else:
     start_date = format_date(date_time[1])
     end_date = format_date(date_time[3])
