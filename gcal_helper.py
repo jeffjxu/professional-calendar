@@ -210,7 +210,7 @@ def compare_events(events):
     past_events = dict()
   
   new_events = dict()
-  event_ids = list()
+  event_ids = set()
   for event in events:
     # if event has been updated on Handshake, add that to new events
     if event in past_events:
@@ -218,7 +218,7 @@ def compare_events(events):
           (events[event]['dates'] != past_events[event]['dates'] and events[event]['dates'] != 'n/a') or
           (events[event]['description'] != past_events[event]['description'] and events[event]['description'] != 'n/a') or
           (events[event]['location'] != past_events[event]['location'] and events[event]['location'] != 'n/a')):
-        event_ids.append(event)
+        event_ids.add(event)
         new_events[event] = events[event]
     # if event is new, add that to new events
     else:

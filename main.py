@@ -1,46 +1,80 @@
 from web_scrape_helper import *
 from gcal_helper import *
 from gcal_variables import *
-import time, json, os
+import time, json, os, sys
 
 def main():
-  start = time.time()
-  email = os.environ["HANDSHAKE_EMAIL"]
-  password = os.environ["HANDSHAKE_PASSWORD"]
-
-  #use a larger number if attributes are not found, this is dependent on your internet speed
-  wait = 3
-
-  driver = setup(wait)
-  login(driver, email, password)
-  results = fetch_events(driver, wait)
-  driver.quit()
-
-  with open('events.json', 'w') as outfile:
-    json.dump(results, outfile, indent=2)
-    print('Event data exported to events.json')
-    print('Data parsed in ' + str(time.time() - start) + ' seconds')
-
+  option = sys.argv[1]
   service = create_api_endpoint(clear_scopes)
 
-  event_ids, new_events = compare_events(results)
+  if option == 'fetch':
+    email = os.environ["HANDSHAKE_EMAIL"]
+    password = os.environ["HANDSHAKE_PASSWORD"]
 
-  try:
-    with open('past_events.json') as f:
-      past_events = json.load(f)
-  except:
-    past_events = dict()
+  #use a larger number if attributes are not found, this is dependent on your internet speed
+    wait = 3
 
-  for event_id in event_ids:
-    delete_one_event(service, test_id, past_events[event_id]['event_id'])
-    past_events.pop(event_id)
+    driver = setup(wait)
+    login(driver, email, password)
+    results = fetch_events(driver, wait)
+    driver.quit()
+    event_ids, new_events = compare_events(results)
+
+    with open('events.json', 'w') as outfile:
+      json.dump(new_events, outfile, indent=2)
     
-  new_events = add_all_events(service, new_events, test_id)
+    with open('changed_event_ids.json', 'w') as outfile:
+      json.dump(event_ids, outfile, indent=2)
 
-  past_events.update(new_events)
+  elif option == 'add':
+    try:
+      with open('past_events.json') as f:
+        past_events = json.load(f)
+    except:
+      past_events = dict()
 
-  with open('past_events.json', 'w') as outfile:
-    json.dump(past_events, outfile, indent=2)
+    try:
+      with open('changed_event_ids.json') as f:
+        event_ids = json.load(f)
+    except:
+      event_ids = set()
+
+    for event_id in event_ids:
+      delete_one_event(service, test_id, past_events[event_id]['event_id'])
+      past_events.pop(event_id)
+      
+    new_events = add_all_events(service, new_events, test_id)
+
+    past_events.update(new_events)
+
+    with open('past_events.json', 'w') as outfile:
+      json.dump(past_events, outfile, indent=2)
+
+  elif option == 'clear':
+    calendar = sys.argv[2]
+    if calendar == 'business':
+      calendar_id = business_id
+    elif calendar == 'general':
+      calendar_id = general_id
+    elif calendar == 'tech':
+      calendar_id = tech_id
+    elif calendar == 'design':
+      calendar_id = design_id
+    elif calendar == 'engineering':
+      calendar_id = engineering_id
+    elif calendar == 'test':
+      calendar_id = test_id
+    else:
+      print('Calendar option not valid: your options are: "general", "business", "design", "engineering", "tech".')
+      sys.exit()
+    clear_calendar(service, calendar_id)
+  
+  else:
+    print('Invalid option. Your options are:')
+    print('"fetch" - get all events from Handshake and put them in events.json')
+    print('"add" - add events from events.json to Google Calendar')
+    print('"clear <calendar_name>" - clears all events from that calendar')
+
 
 
 if __name__ == '__main__':
