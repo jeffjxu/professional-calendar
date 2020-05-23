@@ -194,6 +194,8 @@ def clear_calendar(service, cal_id):
 def add_all_events(service, events):
   for event_url in events:
     calendar = events[event_url]['type']
+    
+    # change this to your own calendars
     if calendar == '1':
       calendar_id = general_id
     elif calendar == '2':

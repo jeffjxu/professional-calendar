@@ -5,7 +5,7 @@ import time, json, os, sys
 
 def main():
   option = sys.argv[1]
-  service = create_api_endpoint(clear_scopes)
+  service = create_api_endpoint(scopes)
 
   if option == 'fetch':
     email = os.environ["HANDSHAKE_EMAIL"]
@@ -56,6 +56,7 @@ def main():
     with open('past_events.json', 'w') as outfile:
       json.dump(past_events, outfile, indent=2)
 
+  # change this to your own calendars
   elif option == 'clear':
     calendar = sys.argv[2]
     if calendar == '2':
