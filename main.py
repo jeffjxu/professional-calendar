@@ -11,7 +11,7 @@ def main():
     email = os.environ["HANDSHAKE_EMAIL"]
     password = os.environ["HANDSHAKE_PASSWORD"]
 
-  #use a larger number if attributes are not found, this is dependent on your internet speed
+    #use a larger number if attributes are not found, this is dependent on your internet speed
     wait = 3
 
     driver = setup(wait)
@@ -34,6 +34,12 @@ def main():
       past_events = dict()
 
     try:
+      with open("events.json") as f:
+        new_events = json.load(f)
+    except:
+      new_events = dict()
+
+    try:
       with open('changed_event_ids.json') as f:
         event_ids = json.load(f)
     except:
@@ -43,7 +49,7 @@ def main():
       delete_one_event(service, test_id, past_events[event_id]['event_id'])
       past_events.pop(event_id)
       
-    new_events = add_all_events(service, new_events, test_id)
+    new_events = add_all_events(service, new_events)
 
     past_events.update(new_events)
 
@@ -52,17 +58,17 @@ def main():
 
   elif option == 'clear':
     calendar = sys.argv[2]
-    if calendar == 'business':
+    if calendar == '2':
       calendar_id = business_id
-    elif calendar == 'general':
+    elif calendar == '1':
       calendar_id = general_id
-    elif calendar == 'tech':
+    elif calendar == '5':
       calendar_id = tech_id
-    elif calendar == 'design':
+    elif calendar == '3':
       calendar_id = design_id
-    elif calendar == 'engineering':
+    elif calendar == '4':
       calendar_id = engineering_id
-    elif calendar == 'test':
+    elif calendar == '6':
       calendar_id = test_id
     else:
       print('Calendar option not valid: your options are: "general", "business", "design", "engineering", "tech".')

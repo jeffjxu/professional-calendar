@@ -6,6 +6,7 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from date_time_helper import *
+from gcal_variables import *
 
 # create a Google Calendar API endpoint
 # :param scopes (list) - a list of strings containing auth links
@@ -190,10 +191,22 @@ def clear_calendar(service, cal_id):
 # add events to a calendar
 # :param service - a Google Calendar API endpoint
 # :param events (json object) - a collection of raw event data
-# :param cal_id (str) - calendar id
-def add_all_events(service, events, cal_id):
+def add_all_events(service, events):
   for event_url in events:
-    event_id = add_one_event(service, cal_id, events[event_url], event_url)
+    calendar = events[event_url]['type']
+    if calendar == '1':
+      calendar_id = general_id
+    elif calendar == '2':
+      calendar_id = business_id
+    elif calendar == '3':
+      calendar_id = design_id
+    elif calendar == '4':
+      calendar_id = engineering_id
+    elif calendar == '5':
+      calendar_id = tech_id
+    elif calendar == '6':
+      calendar_id = test_id
+    event_id = add_one_event(service, calendar_id, events[event_url], event_url)
     events[event_url]['event_id'] = event_id
   
   return events
@@ -210,7 +223,7 @@ def compare_events(events):
     past_events = dict()
   
   new_events = dict()
-  event_ids = set()
+  event_ids = list()
   for event in events:
     # if event has been updated on Handshake, add that to new events
     if event in past_events:
@@ -218,7 +231,7 @@ def compare_events(events):
           (events[event]['dates'] != past_events[event]['dates'] and events[event]['dates'] != 'n/a') or
           (events[event]['description'] != past_events[event]['description'] and events[event]['description'] != 'n/a') or
           (events[event]['location'] != past_events[event]['location'] and events[event]['location'] != 'n/a')):
-        event_ids.add(event)
+        event_ids.append(event)
         new_events[event] = events[event]
     # if event is new, add that to new events
     else:

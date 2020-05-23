@@ -24,12 +24,12 @@ def setup(wait):
 def login(driver, email, password):
   driver.get("https://cmu.joinhandshake.com/login?requested_authentication_method=standard")
   
-  #navigate to email page
+  # navigate to email page
   print("Logging in...")
   login_link = driver.find_element_by_partial_link_text('sign in')
   login_link.click()
 
-  #enter email and navigate to password page
+  # enter email and navigate to password page
   print("Entering email...")
   email_box = driver.find_element_by_name('identifier')
   email_box.send_keys(email)
@@ -38,7 +38,7 @@ def login(driver, email, password):
   alt_login = driver.find_element_by_partial_link_text('Handshake credentials')
   alt_login.click()
 
-  #enter password and login
+  # enter password and login
   print("Entering password...")
   password_box = driver.find_element_by_name('password')
   password_box.send_keys(password)
@@ -56,6 +56,7 @@ def event_detail(driver, event_url, wait):
   driver.get(event_url)
   print(event_url)
 
+  # find the name
   try:
     name = driver.find_element_by_tag_name('h1').get_attribute('innerHTML').replace('&amp;', '&').strip()
     print("name found: " + name)
@@ -63,6 +64,7 @@ def event_detail(driver, event_url, wait):
     name = 'n/a'
     print("error: name not found")
 
+  # find the date
   try:
     date_time = driver.find_element_by_class_name('style__date___36Na1').get_attribute('innerHTML').replace('<span>', '').replace('</span>', '').strip()
     (start_date, end_date, start_time, end_time, timezone) = parse_date_time(date_time)
@@ -75,6 +77,7 @@ def event_detail(driver, event_url, wait):
     timezone = 'n/a'
     print("error: dates not found")
 
+  # find the location
   try:
     location = driver.find_elements_by_class_name('style__feature___2fAvg')[1].find_element_by_xpath('.//span').text.strip()
     print("location found")
@@ -93,6 +96,7 @@ def event_detail(driver, event_url, wait):
   
   driver.implicitly_wait(wait)
 
+  # find the description
   try:
     description = driver.find_element_by_class_name('style__formatted___2u1nG').get_attribute('innerHTML').replace('&nbsp;', '').strip()
     clean = re.compile('<.*?>')
@@ -116,7 +120,7 @@ def event_detail(driver, event_url, wait):
     }],
     'location': location,
     'description': description,
-    'type': 'general',
+    'type': '1',
     'event_id':'n/a'
   }
 
@@ -132,6 +136,7 @@ def career_fair_detail(driver, event_url):
   driver.get(event_url)
   print(event_url)
 
+  # find the name
   try:
     name = driver.find_element_by_class_name('style__career-fair-name___2FfuZ').get_attribute('innerHTML').replace('&amp;', '&').strip()
     print("name found: " + name)
@@ -139,6 +144,7 @@ def career_fair_detail(driver, event_url):
     name = 'n/a'
     print("error: name not found")
 
+  # find the dates
   try:
     raw_date_times = driver.find_element_by_class_name('style__cover-details___3HWIY').find_elements_by_xpath('./div')[1].get_attribute('innerHTML').strip().replace('<div><span>', '').split('</span></div>')
     dates = []
@@ -152,6 +158,7 @@ def career_fair_detail(driver, event_url):
     dates = 'n/a'
     print("error: dates not found")
 
+  # find the location
   try:
     location = driver.find_element_by_class_name('style__cover-details___3HWIY').find_elements_by_xpath('./div')[2].find_element_by_tag_name('a').get_attribute('href').strip()
     print("location found")
@@ -159,6 +166,7 @@ def career_fair_detail(driver, event_url):
     location = 'n/a'
     print("error: location not found")
 
+  #find the description
   try:
     description = driver.find_element_by_class_name('style__description___3QmnV').get_attribute('innerHTML').replace('\n', ' ').replace('&nbsp;', '').replace('</p>', '\n').strip()
     clean = re.compile('<.*?>')
