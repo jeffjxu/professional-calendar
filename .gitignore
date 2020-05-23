@@ -3,3 +3,4 @@ geckodriver.log
 __pycache__/
 token.pickle
 gcal_variables.py
+*.json
