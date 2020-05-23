@@ -94,6 +94,7 @@ def convert_datetime(time, date, timezone):
 # :param timezone (str) - timezone abbreviation
 # :return: (str) - UTC offset
 def timezone_to_utc(timezone):
+  # a dictionary of timezone abbreviation and UTC offsets
   timezones = {
     "X": "-11:00", "NUT": "-11:00", "SST": "-11:00",
     "W": "-10:00", "CKT": "-10:00", "HAST": "-10:00", "HST": "-10:00", "TAHT": "-10:00", "TKT": "-10:00",
