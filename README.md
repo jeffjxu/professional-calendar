@@ -20,7 +20,7 @@ scopes = ['https://www.googleapis.com/auth/calendar']
 ```
 4. add your calendar IDs in gcal_variable.py
 ```
-cal_id = '<CALENDAR_I>'
+cal_id = '<CALENDAR_ID>'
 ```
 5. change the "main" function in calendar.py to your own calendars
 6. change the "add_all_events" function in gcal_helper.py to your own calendars
