@@ -170,8 +170,11 @@ def add_one_event(service, cal_id, event, event_url):
 # :param cal_id (str) - calendar id
 # :param event_id (str) - event id
 def delete_one_event(service, cal_id, event_id):
-  service.events().delete(calendarId=cal_id, eventId=event_id).execute()
-  print('Deleted event: '+ event_id)
+  try:
+    service.events().delete(calendarId=cal_id, eventId=event_id).execute()
+    print('Deleted event: '+ event_id)
+  except:
+    print('Could not delete event ' + event_id + ' from calendar ' + cal_id)
 
 # clear all events from a calendar
 # :param service - a Google Calendar API endpoint

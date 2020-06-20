@@ -46,7 +46,21 @@ def main():
       event_ids = set()
 
     for event_id in event_ids:
-      delete_one_event(service, test_id, past_events[event_id]['event_id'])
+      calendar = past_events[event_id]['type']
+      if calendar == '1':
+        calendar_id = general_id
+      elif calendar == '2':
+        calendar_id = business_id
+      elif calendar == '3':
+        calendar_id = design_id
+      elif calendar == '4':
+        calendar_id = engineering_id
+      elif calendar == '5':
+        calendar_id = tech_id
+      elif calendar == '6':
+        calendar_id = test_id
+
+      delete_one_event(service, calendar_id, past_events[event_id]['event_id'])
       past_events.pop(event_id)
       
     new_events = add_all_events(service, new_events)
@@ -56,20 +70,26 @@ def main():
     with open('past_events.json', 'w') as outfile:
       json.dump(past_events, outfile, indent=2)
 
+    with open('events.json', 'w') as outfile:
+      json.dump({}, outfile, indent=2)
+
+    with open('changed_event_ids.json', 'w') as outfile:
+      json.dump([], outfile)
+
   # change this to your own calendars
   elif option == 'clear':
     calendar = sys.argv[2]
-    if calendar == '2':
-      calendar_id = business_id
-    elif calendar == '1':
+    if calendar == 'general':
       calendar_id = general_id
-    elif calendar == '5':
-      calendar_id = tech_id
-    elif calendar == '3':
+    elif calendar == 'business':
+      calendar_id = business_id
+    elif calendar == 'design':
       calendar_id = design_id
-    elif calendar == '4':
+    elif calendar == 'engineering':
       calendar_id = engineering_id
-    elif calendar == '6':
+    elif calendar == 'tech':
+      calendar_id = tech_id
+    elif calendar == 'test':
       calendar_id = test_id
     else:
       print('Calendar option not valid: your options are: "general", "business", "design", "engineering", "tech".')
