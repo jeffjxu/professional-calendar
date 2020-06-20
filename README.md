@@ -22,7 +22,7 @@ scopes = ['https://www.googleapis.com/auth/calendar']
 ```
 cal_id = '<CALENDAR_ID>'
 ```
-5. change the "main" function in calendar.py to your own calendars
+5. change the "main" function in gcal.py to your own calendars
 6. change the "add_all_events" function in gcal_helper.py to your own calendars
 7. set your Handshake username and password as environment variables
 ```
@@ -34,16 +34,16 @@ or follow the instructions for your OS
 ## Running
 To fetch events from Handshake
 ```
-python calendar.py fetch
+python gcal.py fetch
 ```
 Then you can label the event categories in events.json
 
 To add events to Google Calendar
 ```
-python calendar.py add
+python gcal.py add
 ```
 
 To clear a calendar
 ```
-python calendar.py clear <CALENDAR NAME>
+python gcal.py clear <CALENDAR NAME>
 ```
