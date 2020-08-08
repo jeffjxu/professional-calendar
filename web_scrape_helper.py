@@ -11,7 +11,7 @@ import re, time, json
 # :return: a webdriver object 
 def setup(wait):
   opts = Options()
-  opts.headless = True
+  opts.headless = False
   driver = webdriver.Firefox(options=opts)
   driver.implicitly_wait(5)
   return driver
@@ -66,7 +66,8 @@ def event_detail(driver, event_url, wait):
 
   # find the date
   try:
-    date_time = driver.find_element_by_class_name('style__date___36Na1').get_attribute('innerHTML').replace('<span>', '').replace('</span>', '').strip()
+    date_time = driver.find_element_by_class_name('style__date___2Y5fm').get_attribute('innerHTML').replace('<span>', '').replace('</span>', '').strip()
+    print(date_time)
     (start_date, end_date, start_time, end_time, timezone) = parse_date_time(date_time)
     print("dates found")
   except:
@@ -138,7 +139,7 @@ def career_fair_detail(driver, event_url):
 
   # find the name
   try:
-    name = driver.find_element_by_class_name('style__career-fair-name___2FfuZ').get_attribute('innerHTML').replace('&amp;', '&').strip()
+    name = driver.find_element_by_class_name('style__title___3kllo').get_attribute('innerHTML').replace('&amp;', '&').strip()
     print("name found: " + name)
   except:
     name = 'n/a'
@@ -146,13 +147,18 @@ def career_fair_detail(driver, event_url):
 
   # find the dates
   try:
-    raw_date_times = driver.find_element_by_class_name('style__cover-details___3HWIY').find_elements_by_xpath('./div')[1].get_attribute('innerHTML').strip().replace('<div><span>', '').split('</span></div>')
+    raw_date_times = driver.find_element_by_class_name('style__time___1nuLo').get_attribute('innerHTML').strip().replace('<div><span>', '')
+    clean = re.compile('<.*?>')
+    raw_date_times = re.sub(clean, '', raw_date_times)
+    raw_date_times = raw_date_times.split(',')
+    date_time = raw_date_times[0] + ',' + raw_date_times[1] + raw_date_times[2][0:5] + ',' + raw_date_times[2][5:]
+    ampm = [m.start() for m in re.finditer('pm', date_time)] + [m.start() for m in re.finditer('am', date_time)]
+    for i in ampm:
+      date_time = date_time[:i] + ' ' + date_time[i:]
     dates = []
-    for date_time in raw_date_times:
-      if date_time == '':
-        continue
-      (start_date, end_date, start_time, end_time, timezone) = parse_date_time(date_time)
-      dates.append({'start_date': start_date, 'end_date': end_date, 'start_time': start_time, 'end_time': end_time, 'timezone': timezone})
+
+    (start_date, end_date, start_time, end_time, timezone) = parse_date_time(date_time)
+    dates.append({'start_date': start_date, 'end_date': end_date, 'start_time': start_time, 'end_time': end_time, 'timezone': timezone})
     print("dates found")
   except:
     dates = 'n/a'
@@ -168,7 +174,7 @@ def career_fair_detail(driver, event_url):
 
   #find the description
   try:
-    description = driver.find_element_by_class_name('style__description___3QmnV').get_attribute('innerHTML').replace('\n', ' ').replace('&nbsp;', '').replace('</p>', '\n').strip()
+    description = driver.find_element_by_class_name('style__description___3sokg').get_attribute('innerHTML').replace('\n', ' ').replace('&nbsp;', '').replace('</p>', '\n').strip()
     clean = re.compile('<.*?>')
     description = re.sub(clean, '', description)
     print("description found")
@@ -202,7 +208,8 @@ def fetch_events(driver, wait):
 
   #access each event page to get detail
   time.sleep(2)
-  events = driver.find_elements_by_class_name('btn-event')
+  events = driver.find_elements_by_class_name('style__title___2VR10')
+  print(events)
   results = dict()
 
   print("Fetching each event...")

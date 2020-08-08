@@ -1,6 +1,7 @@
 from web_scrape_helper import *
 from gcal_helper import *
 from gcal_variables import *
+from date_time_helper import *
 import time, json, os, sys
 
 def main():
@@ -12,12 +13,15 @@ def main():
     password = os.environ["HANDSHAKE_PASSWORD"]
 
     #use a larger number if attributes are not found, this is dependent on your internet speed
-    wait = 3
+    wait = 5
 
+    # fetch event details from handshake
     driver = setup(wait)
     login(driver, email, password)
     results = fetch_events(driver, wait)
     driver.quit()
+
+    # find new event and changed events
     event_ids, new_events = compare_events(results)
 
     with open('events.json', 'w') as outfile:
@@ -45,6 +49,7 @@ def main():
     except:
       event_ids = set()
 
+    # delete updated events from record and gcal
     for event_id in event_ids:
       calendar = past_events[event_id]['type']
       if calendar == '1':
@@ -62,9 +67,11 @@ def main():
 
       delete_one_event(service, calendar_id, past_events[event_id]['event_id'])
       past_events.pop(event_id)
-      
+    
+    # add new and updated events
     new_events = add_all_events(service, new_events)
 
+    # update records with events
     past_events.update(new_events)
 
     with open('past_events.json', 'w') as outfile:
@@ -77,6 +84,7 @@ def main():
       json.dump([], outfile)
 
   # change this to your own calendars
+  # try not to use this as it will irreversabily delete all events from a calendar
   elif option == 'clear':
     calendar = sys.argv[2]
     if calendar == 'general':
@@ -104,5 +112,14 @@ def main():
 
 
 
-if __name__ == '__main__':
-  main()
+# if __name__ == '__main__':
+#   main()
+
+event_url = 'https://cmu.joinhandshake.com/career_fairs/17360?ref=events-search'
+email = os.environ["HANDSHAKE_EMAIL"]
+password = os.environ["HANDSHAKE_PASSWORD"]
+
+driver = setup(5)
+login(driver, email, password)
+# career_fair_detail(driver, event_url)
+event_detail(driver, "https://cmu.joinhandshake.com/events/531577?ref=events-search", 5)

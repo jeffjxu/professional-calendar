@@ -719,22 +719,6 @@
     "type": "2",
     "event_id": "4v7q7825hjfgbalfgi24mb1vho"
   },
-  "https://cmu.joinhandshake.com/events/503195": {
-    "name": "NNSA Graduate Fellowship Program Virtual Information Session August 24, 2020",
-    "dates": [
-      {
-        "start_date": "2020-08-24",
-        "end_date": "n/a",
-        "start_time": "15:00:00",
-        "end_time": "16:00:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "https://pnnl.zoom.us/webinar/register/WN_llT0dgaSTZ2O5m4-wjHcug",
-    "description": "Register in advance for this webinar:\nhttps://pnnl.zoom.us/webinar/register/WN_llT0dgaSTZ2O5m4-wjHcug \n\nFellowships Available: Protect our nation\u2019s security as a Department of Energy NNSA Graduate Fellow. NGFP is seeking highly motivated graduate-level students to grow as the next generation of national security leaders. The one-year, salaried (with benefits) fellowships offer: \n\u2022 Hands-on experience in national security and nonproliferation; \n\u2022 Career development, professional networking, and specialized training events; and \n\u2022 Extensive interaction and collaboration with leading national security technology and policy experts.\n\nThese positions are open to students actively pursuing their master\u2019s or doctoral degree as well as students who have achieved their graduate degree within the past 18 months. Details about the program can be found on at https://www.pnnl.gov/projects/ngfp The current application deadline is October 2, 2020 for positions that will begin in June 2021.",
-    "type": "4",
-    "event_id": "7j6cqcfkvqderjcttf01evikng"
-  },
   "https://cmu.joinhandshake.com/events/510215": {
     "name": "*CPDC Summer Seminars: Boost Your Skills Today for Your Career Tomorrow",
     "dates": [
@@ -1007,22 +991,6 @@
     "type": "2",
     "event_id": "ff5f31fva75e1enfn268lo4mng"
   },
-  "https://cmu.joinhandshake.com/events/515022": {
-    "name": "2020 Corporate & Strategy Women's Summit",
-    "dates": [
-      {
-        "start_date": "2020-07-29",
-        "end_date": "n/a",
-        "start_time": "13:00:00",
-        "end_time": "18:00:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "n/a",
-    "description": "This event will give students who self-identify as women with a grad range of Dec 2021 - June 2022 the opportunity to hear the stories of Women Leaders at our firm, and learn about opportunities available within Corporate &amp; Strategy: Internal Audit Analyst Program, Corporate Analyst Development Program, Global Finance &amp; Business Management Analyst Program, and the Chase Leadership Development Program.\n\nEach program hires a summer intern class, which is the leading pipeline into each program\u2019s full-time opportunity upon graduation.\n \nStudents will need to fill out an application for this event, as well as complete a Hirevue pre-recorded video interview. Recruiters will extend invitations to students who show high interest in the financial services industry, our represented programs, and the potential to start their career with us as an intern in 2021.\n\nPlease register by Wednesday, July 15th using the following link: https://jpmc.recsolu.com/external/events/UO3fIea1PHiIXn9pNjNF8g",
-    "type": "2",
-    "event_id": "b48r214i7u0vbh63jid1363ggs"
-  },
   "https://cmu.joinhandshake.com/events/516861": {
     "name": "WSJ+ Live: Reporting on Young People During the Pandemic",
     "dates": [
@@ -1102,22 +1070,6 @@
     "description": "A great opportunity to build employment connections and prepare for your career in education!\n\nEmployers are eager to share information with you about their districts and their employment opportunities. During this event, you'll be able to connect with PK-12 employers from throughout the U.S., ask your questions, and learn about their culture.  Enjoy all the benefits of attending a career fair from wherever you are located!\n\nYou must pre-register (for FREE) to attend this virtual event.",
     "type": "1",
     "event_id": "h2hi37dhgi148mvf2rcm5buu2c"
-  },
-  "https://cmu.joinhandshake.com/events/515999": {
-    "name": "Cesium Presents: Rendering the World in 3D",
-    "dates": [
-      {
-        "start_date": "2020-06-25",
-        "end_date": "n/a",
-        "start_time": "14:00:00",
-        "end_time": "15:00:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "https://us02web.zoom.us/j/84510674597",
-    "description": "Cesium is solving unique problems in both the 3D and geospatial industries and there are problems yet to be solved.\n\nTopics Include:\n- Streaming massive datasets over the web\n- How geospatial rendering differs from traditional game engine rendering\n- Overview of Cesium's 3D tech stack to bring the 3D globe to life",
-    "type": "1",
-    "event_id": "uuhqmpo0ptl27kvptr69pdbgdo"
   },
   "https://cmu.joinhandshake.com/events/516004": {
     "name": "Cesium Presents: Rendering the World in 3D",
@@ -1294,5 +1246,613 @@
     "description": "ARE YOU READY FOR YOUR NEXT CHALLENGE?\n\nATTEND A WEBINAR WITH US CUSTOMS AND BORDER PROTECTION AND LEARN FROM OTHER WOMEN ABOUT JOINING THE LARGEST LAW ENFORCMENT AGENCY.  WOMEN FROM US BORDER PATROL, OFFICE OF FIELD OPERATION-CBP OFFICER, OFFICE OF AIR AND MARINE - AIR AND MARINE AGENT, OFFICE OF TRADE, OFFICE OF INFORMATION AND TECHNOLOGY.\n\nhttps://bit.ly/3cvUwGC",
     "type": "1",
     "event_id": "dq1pona2lvda2vk0i8tk45emi8"
+  },
+  "https://cmu.joinhandshake.com/events/521591": {
+    "name": "GSA Artificial Intelligence and Machine Learning End-User License Agreement Challenge 2020",
+    "dates": [
+      {
+        "start_date": "2020-07-06",
+        "end_date": "2020-08-20",
+        "start_time": "10:00:00",
+        "end_time": "17:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "No location",
+    "description": "GSA Artificial Intelligence and Machine Learning End-User License Agreement Challenge 2020\n\n\n TOTAL CASH PRIZES OFFERED: $20,000\n TYPE OF CHALLENGE: Software and apps\n SUBMISSION START: 07/06/2020 10:00 AM ET\n SUBMISSION END: 08/20/2020 05:00 PM ET\n\nDescription\n\nThe goal of this challenge is to develop an artificial intelligence (AI), or machine learning (ML) solution that will review end-user license agreements (EULA) for terms and conditions that are unacceptable to the government. On average it takes all parties involved approximately 7-14 days to review an EULA and ensure that all unacceptable terms and conditions are identified.\n\nA EULA details the rights and restrictions which apply to the use of software or services. It can also be known as a software license agreement or acceptable use policy. As part of the acquisition process of software or services, GSA reviews the associated EULAs. This review must be completed prior to awarding new contracts or modifying existing contracts. A GSA contracting officer (CO) reviews applicable EULAs for terms and conditions that are not in accordance with Federal law and regulations. The CO may also coordinate a legal review with the Office of General Counsel if they feel it is warranted. Should EULAs contain language that would conflict with Federal law and regulations, the CO must negotiate changes to the EULA to remove the problematic language.\n\nWe are looking for a solution that will use AI and/or ML to improve this manual process. The solution will include a user interface that GSA will use to process the documents and identify unacceptable clauses/terms in the EULAs. Watch our AI / ML challenge video to learn more about the desired solution.\n\nThis solution will decrease the time spent manually reviewing EULAs and free resources to focus on other aspects of the acquisition process. It will also improve the accuracy and consistency of the review process.\n\n\nYoutube video announcing GSA ML/AI Challenge - https://youtu.be/uOBFIqoOJ8k\n\nWebsite with complete details - https://www.challenge.gov/challenge/GSA-artificial-intelligence-AI-machine-learning-ML-challenge/\n\nKey Facts:\n\u00b7      Registration begins: 10 a.m. ET, July 6, 2020\n\u00b7      Submit solutions before: 5 p.m. ET, August 20, 2020\n\u00b7      Semi-finalists announced: 10 a.m. ET, September 4, 2020\n\u00b7      Winner announced: 10 a.m. ET, September 11, 2020\n\u00b7      Each challenge solver (individual, team, or legal entity) is required to register by sending an email to challenge2020@gsa.gov with the subject line stating \u2018Challenge 2020 Registration\u2019.\n\n\u00b7      Cash prizes for winning teams:\no  1st place team: $15,000.00\no  2nd place team: $2,500.00\no  3rd place team: $2,500.00\n\n\u00b7      Questions? emailchallenge2020@gsa.gov for more information.",
+    "type": "1",
+    "event_id": "1u0vcs7rd660pnnk1gj2mpe58c"
+  },
+  "https://cmu.joinhandshake.com/events/519730": {
+    "name": "HubSpot Women in Sales Webinar Series: Growing Your Career in Sales",
+    "dates": [
+      {
+        "start_date": "2020-07-07",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "Any Handshake student with a link to this event can view and RSVP",
+    "description": "Studies by Deloitte and PWC show that the leading benefit working professionals want in a job is the opportunity for career growth and development.\n\nAt HubSpot, we encourage employees to think about career growth not just in terms of advancing to that next level but investing in your long term development too.\n\nWe've gathered some of our top reps and sales managers across our Bogota, Dublin, and Cambridge sales teams to discuss growing your sales careers in a way that makes sense for you, whether that means a path into management, or expanding your impact as an individual contributor on a team. Expect to hear each panelists\u2019 personal career growth story, top tips for growing in a sales role, and how to accelerate growth with critical feedback.",
+    "type": "1",
+    "event_id": "nhfiidlt9pqkpen7jmv2s5d94k"
+  },
+  "https://cmu.joinhandshake.com/events/521090": {
+    "name": "Entry Level Business Data Analysts",
+    "dates": [
+      {
+        "start_date": "2020-07-07",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "15:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://us02web.zoom.us/j/94174885010",
+    "description": "",
+    "type": "1",
+    "event_id": "fp3i5f3hbu1k1vuratg1cknpjg"
+  },
+  "https://cmu.joinhandshake.com/events/515999": {
+    "name": "Cesium Presents: Rendering the World in 3D",
+    "dates": [
+      {
+        "start_date": "2020-07-09",
+        "end_date": "n/a",
+        "start_time": "14:00:00",
+        "end_time": "15:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://us02web.zoom.us/j/84510674597",
+    "description": "Cesium is solving unique problems in both the 3D and geospatial industries and there are problems yet to be solved.\n\nTopics Include:\n- Streaming massive datasets over the web\n- How geospatial rendering differs from traditional game engine rendering\n- Overview of Cesium's 3D tech stack to bring the 3D globe to life",
+    "type": "1",
+    "event_id": "hh5qtju4u0r813g93fhk17hpdk"
+  },
+  "https://cmu.joinhandshake.com/events/521479": {
+    "name": "Yelping From Home: The Tech Talk Series",
+    "dates": [
+      {
+        "start_date": "2020-07-09",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "PDT"
+      }
+    ],
+    "location": "n/a",
+    "description": "To stay connected, create space for folks to collaborate and share some of the things Yelp has been working on, we are launching our very own virtual tech talk series. This series of talks will feature Yelpers from engineering and product and will focus on themes such as career development, technical skills, workplace challenges and Yelp\u2019s response to COVID-19.\n\nTalk: Creating Meaningful Data Through Rich Contextual Logging Across Microservice\n\nAs engineers, we need data to support our decisions. However, it is a huge step from \u201cwe have data\u201d to \u201cwe have meaningful data\u201d. At Yelp, we use contextual logging to allow data consumers to connect any data sources. In this talk, Kangni will talk about how contextual logging is adopted across Yelp\u2019s microservices via context propagation, and the challenges we encountered.\n\nKangni Wang\nBio: Kangni has been a software engineer on the experimentation team at Yelp for the last 2.5 years. Prior to Yelp, she completed her Bachelor's degree in Computer Science at Harvey Mudd College.\n\nTalk: Fuelling Your Career With Coffee Chats\n\nOne of the best ways to meet people and launch your career is to set up short chats over coffee. But, there are no guidelines and it can be daunting to start. We'll go over the individual stages of a coffee chat, from asking someone to transforming it into a mentorship. You\u2019ll pick up tools to have meaningful conversations and walk away with a game plan to get started!\n\nSherry Yuan\nBio: Sherry is an Android engineer at Yelp working on the Yelp for Business Owners Android app. Prior to starting at Yelp, she studied computer science at the University of British Columbia, where she started a coffee chat program with Daphne. She is passionate about Android development, diversity in tech, and creative and technical writing.\n\nDaphne Liu\nBio: Daphne is an Android engineer who enjoys meeting new people and branching out outside her team. She shares her interests in tech, mentorship and diversity by speaking at conferences, writing blogs, and being involved with the Women in CS club she founded at her university. She is currently finishing up her last year of school at the University of British Columbia.",
+    "type": "1",
+    "event_id": "4ub519vak18hp5947sspmgk7rg"
+  },
+  "https://cmu.joinhandshake.com/events/518048": {
+    "name": "Intro to Bain Webinar (2 of 2)",
+    "dates": [
+      {
+        "start_date": "2020-07-09",
+        "end_date": "n/a",
+        "start_time": "20:00:00",
+        "end_time": "21:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://careers.bain.com/recruits/EventDetail?folderId=34186",
+    "description": "Join Bain &amp; Company at 8PM EDT to learn more about their Associate Consultant and Associate Consultant Intern roles! They will be hosting two webinars. Each webinar will cover the same material; please register for the best date/time that works for you.",
+    "type": "1",
+    "event_id": "ptuus4cg4d94bmqg43sgg30eq8"
+  },
+  "https://cmu.joinhandshake.com/events/513352": {
+    "name": "Acelero Learning Virtual Info Session: Learn how your degree could help close the achievement gap.",
+    "dates": [
+      {
+        "start_date": "2020-07-15",
+        "end_date": "n/a",
+        "start_time": "10:00:00",
+        "end_time": "11:00:00",
+        "timezone": "PDT"
+      }
+    ],
+    "location": "Any Handshake student with a link to this event can view and RSVP",
+    "description": "We are hosting a virtual information session to learn how your education could help to close the achievement gap. We have locations in Las Vegas NV, Philadelphia PA, Camden NJ, and Wisconsin. Perhaps like many students, you are unsure what to do after graduation. You will learn about our organizational culture, our competitive benefits and understand our passion to achieve stellar academic outcomes for children of all abilities.\n\nAt Acelero Learning, we believe all children can achieve and succeed, and we work to empower families to advocate for their children and themselves. Our mission is to bring a relentless focus on positive family and child outcomes to close the achievement gap and build a better future for children, families, and communities served by the Head Start program.",
+    "type": "1",
+    "event_id": "kpmdm8ieo80err56o4pq5d7e8o"
+  },
+  "https://cmu.joinhandshake.com/events/519776": {
+    "name": "*Communicate to Connect: Brand Storytelling , presented by Merck",
+    "dates": [
+      {
+        "start_date": "2020-07-21",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "14:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJYpc-uvpzktE9CKFrVpkbd2dPOoc2QddmhJ",
+    "description": "Learn how to inform and inspire audiences, regardless of venue or medium. At the end of this presentation, you will have developed the basic skills to raise your external profile through dynamic delivery, inspire engagement with persuasive presentation, and increase awareness through compelling content.\n\nRegistration is required: https://cmu.zoom.us/meeting/register/tJYpc-uvpzktE9CKFrVpkbd2dPOoc2QddmhJ\n\nPresenter: Craig Thomason is Head of Creative Engagement and co-founder of imagine@Merck, a safe, unapologetic platform for new ideas that challenge the status quo.  For over two years he has been instrumental in forming a global community of Storytellers whose purpose is to give voice to new ideas that challenge the status quo.  A two-time TEDx speaker and speaker coach, Craig is responsible for creating the imagine Speaker Experience, a 12-week immersion program designed to help speakers deliver powerful presentations in the style of TED.  Craig has also created Communicate to Connect for Leaders and Communicate to Connect for Organizations, workshops that assist individuals and teams in learn and employing the art and science of human centered communication.  Craig has studied digital video production, has a Bachelor\u2019s in Writing and has spent nearly a decade at Merck.\n\nView the full summer seminar schedule here: https://drive.google.com/file/d/1i2NumYu-3AIIm7eRk1t2P5f_1nQKwit8/view",
+    "type": "1",
+    "event_id": "2m2o89ku3sucem2g2b4jgfu7uc"
+  },
+  "https://cmu.joinhandshake.com/events/517792": {
+    "name": "*VIRTUAL Evaluating and Negotiating Your Return Internship Offer for Engineering and SCS Graduate Students",
+    "dates": [
+      {
+        "start_date": "2020-07-24",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJwvcuioqTwpHddn79DNfkPgSYI2jBX_n2rt",
+    "description": "Register on Zoom  USING YOUR ANDREW EMAIL ADDRESS: https://cmu.zoom.us/meeting/register/tJwvcuioqTwpHddn79DNfkPgSYI2jBX_n2rt\n\nThis presentation is led by the Engineering / SCS Graduate Career Consultants to help you learn how to negotiate and effectively evaluate your return internship offer. \n\nTopics covered:\n-How to negotiate, when to negotiate, and the best way to interact with your future employer\n-Appropriate questions to ask during the offer process\n-How to turn down an offer while maintaining a professional relationship with the employer\n-What to say and write when responding to an offer\n-Ethical expectations and deadlines when considering a returning internship job offer\n\nAfter registering, you will receive a confirmation email containing information about joining the workshop. To log in to Zoom for the workshop use this link: https://cmu.zoom.us/j/98251077373?pwd=WTVUclQrSzR0ai9Ra0dIWDZhNmFVZz09",
+    "type": "1",
+    "event_id": "ip87rj4dm787rmjpj8facqbc6o"
+  },
+  "https://cmu.joinhandshake.com/events/521732": {
+    "name": "*The New Normal \u2013 Virtual Collaboration for All, presented by AEO Inc.",
+    "dates": [
+      {
+        "start_date": "2020-07-29",
+        "end_date": "n/a",
+        "start_time": "15:00:00",
+        "end_time": "16:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJIsf-uorT0vEtJFkKHAg8pgTBrnN3MBn2eQ",
+    "description": "The impacts of COVID-19 created a virtual world for companies and individuals overnight! Learn how the AEO Inc. Technology team quickly pivoted to provide our associates with the ability to complete business critical functions remotely, and how you can use these best practices with your team in the future. \n\nRegistration required: https://cmu.zoom.us/meeting/register/tJIsf-uorT0vEtJFkKHAg8pgTBrnN3MBn2eQ\n\nView the full summer seminar schedule here: https://drive.google.com/file/d/1i2NumYu-3AIIm7eRk1t2P5f_1nQKwit8/view",
+    "type": "1",
+    "event_id": "nhn7p1tih57i6va1rn00v6mnjg"
+  },
+  "https://cmu.joinhandshake.com/events/503195": {
+    "name": "NNSA Graduate Fellowship Program Virtual Information Session August 24, 2020",
+    "dates": [
+      {
+        "start_date": "2020-08-24",
+        "end_date": "n/a",
+        "start_time": "15:00:00",
+        "end_time": "16:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://pnnl.zoomgov.com/webinar/register/WN_5imX7_-3T4mLzo00jBONTw",
+    "description": "Register in advance for this webinar: (UPDATED LINK BELOW)\nhttps://pnnl.zoomgov.com/webinar/register/WN_5imX7_-3T4mLzo00jBONTw \n\nFellowships Available: Protect our nation\u2019s security as a Department of Energy NNSA Graduate Fellow. NGFP is seeking highly motivated graduate-level students to grow as the next generation of national security leaders. The one-year, salaried (with benefits) fellowships offer: \n\u2022 Hands-on experience in national security and nonproliferation; \n\u2022 Career development, professional networking, and specialized training events; and \n\u2022 Extensive interaction and collaboration with leading national security technology and policy experts.\n\nThese positions are open to students actively pursuing their master\u2019s or doctoral degree as well as students who have achieved their graduate degree within the past 18 months. Details about the program can be found on at https://www.pnnl.gov/projects/ngfp The current application deadline is October 2, 2020 for positions that will begin in June 2021.",
+    "type": "1",
+    "event_id": "6ju3ma7bts5tar81072fpvc8lo"
+  },
+  "https://cmu.joinhandshake.com/events/518215": {
+    "name": "DRW Virtual Information Session",
+    "dates": [
+      {
+        "start_date": "2020-09-02",
+        "end_date": "n/a",
+        "start_time": "18:00:00",
+        "end_time": "19:30:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "No location",
+    "description": "DRW will be hosting a virtual information session where students will hear from our traders, software developers, and researchers on their roles within the company. Students will also be able to learn more about job opportunities, both full-time and internships, and discuss the hiring process with recruiters.",
+    "type": "1",
+    "event_id": "b3r4ebmmu2b1ld6fvnvnq6qack"
+  },
+  "https://cmu.joinhandshake.com/events/503199": {
+    "name": "NNSA Graduate Fellowship Program Virtual Information Session September 10, 2020",
+    "dates": [
+      {
+        "start_date": "2020-09-10",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "17:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://pnnl.zoomgov.com/webinar/register/WN_5oeM99QNSFOCoBLB8-FujA",
+    "description": "Register in advance for this webinar: (UPDATED LINK BELOW)\nhttps://pnnl.zoomgov.com/webinar/register/WN_5oeM99QNSFOCoBLB8-FujA \n\nFellowships Available: Protect our nation\u2019s security as a Department of Energy NNSA Graduate Fellow. NGFP is seeking highly motivated graduate-level students to grow as the next generation of national security leaders. The one-year, salaried (with benefits) fellowships offer:\n\u2022 Hands-on experience in national security and nonproliferation;\n\u2022 Career development, professional networking, and specialized training events; and\n\u2022 Extensive interaction and collaboration with leading national security technology and policy experts.\n\nThese positions are open to students actively pursuing their master\u2019s or doctoral degree as well as students who have achieved their graduate degree within the past 18 months. Details about the program can be found on at https://www.pnnl.gov/projects/ngfp The current application deadline is October 2, 2020 for positions that will begin in June 2021.",
+    "type": "1",
+    "event_id": "goiqhsj0ruph9f4oggtekikn94"
+  },
+  "https://cmu.joinhandshake.com/events/499516": {
+    "name": "Accenture Strategy Coffee Chats",
+    "dates": [
+      {
+        "start_date": "2020-09-18",
+        "end_date": "n/a",
+        "start_time": "10:00:00",
+        "end_time": "12:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "CPDC - Interview Center (Cohon Center, LL), CPDC Conference Room, Cohon Center - Lower Level, Carnegie Mellon University, 5000 Forbes Ave, Pittsburgh, PA 15213, USA",
+    "description": "Accenture Strategy is hosting coffee chats! Bring your thirst for knowledge (and coffee!) to learn more about our company, culture and how we can help you take the next step in your career adventure. Some of our CMU campus team members and Strategy business representatives will be on site at this informal event to network and answer all of your questions. Feel free to drop in and out at times that work for you!",
+    "type": "1",
+    "event_id": "pbtkes74orp7ui0in0jfa4vlnk"
+  },
+  "https://cmu.joinhandshake.com/events/495869": {
+    "name": "Lenovo's Virtual info session",
+    "dates": [
+      {
+        "start_date": "2020-09-22",
+        "end_date": "n/a",
+        "start_time": "18:00:00",
+        "end_time": "19:30:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGE1YjU0N2ItOWNlNC00OGFkLWJkZjgtZDE0YTE0NzI5ZjU2%40thread.v2/0?context=%7b%22Tid%22%3a%225c7d0b28-bdf8-410c-aa93-4df372b16203%22%2c%22Oid%22%3a%229a0f28df-f1d4-4b2e-afa2-fbb687551f40%22%7d",
+    "description": "Lenovo is looking for passionate, driven individuals who want to make an impact in a fast-paced global technology environment. At Lenovo, we are a community of innovative thinkers, risk-takers, and people who challenge the status quo. We are one of Interbrand\u2019s 100 BEST global brands, BCG's 50 most innovative companies, and #212 in the Fortune 500 list. From smartphones and smart homes to PC\u2019s and data centers, Lenovo is dedicated to transforming our customers\u2019 experience by enhancing and elevating human capability through technology. \n\nLenovo is excited to offer: \n- Summer Internships \n- Co-op \n- Full-time positions, including 4 rotational programs. \n\nWe have positions both for TECHNICAL and BUSINESS backgrounds! \n\nApply today http://lenovocareers.com to help us define our world of tomorrow.",
+    "type": "1",
+    "event_id": "4fpf1eb39cvpfd36or3tc2pr4s"
+  },
+  "https://cmu.joinhandshake.com/events/523796": {
+    "name": "LIVE at the Keyot Cafe: It's Summer and You're Unemployed",
+    "dates": [
+      {
+        "start_date": "2020-07-14",
+        "end_date": "n/a",
+        "start_time": "11:30:00",
+        "end_time": "13:00:00",
+        "timezone": "CDT"
+      }
+    ],
+    "location": "Any Handshake student with a link to this event can view and RSVP",
+    "description": "Summer 2020 was supposed to be one of the best economic job markets, but it has turned out to be one of the worst. Was your summer internship cancelled? Was your full-time offer rescinded? Are you on the job hunt? You are not alone. Keyot invites you to attend an upcoming virtual event LIVE from the Keyot Caf\u00e9 on July 14, 2020 discussing how to differentiate yourself in a tough job market. Our panelists consist of a Fortune 1000 hiring manager, an experienced recruiter, and an upcoming college graduate whose experience you may relate to. They will provide tips, advice, and answer live questions from event attendees. \n\nOne of the best things you can do during this time is take control over what is in your sphere of influence \u2013 starting with attending this event. Feel free to invite your friends or network! This event is open to all recent and soon-to-be college graduates. \n\nKeyot is a women-owned management consulting company. We prepare and enables young professionals to enter corporate project delivery roles through our innovative Crew212 program. By placing these highly motivated Crew212 consultants at the right assignment at a client, and mentoring them for up to two years, close to 500 young people in 10 states are now thriving in careers to which they never would have had access.",
+    "type": "2",
+    "event_id": "2bcjt97rnm4kfofapubouq0lqc"
+  },
+  "https://cmu.joinhandshake.com/events/523495": {
+    "name": "Introduction to Prototyping in Augmented Reality",
+    "dates": [
+      {
+        "start_date": "2020-07-14",
+        "end_date": "n/a",
+        "start_time": "19:00:00",
+        "end_time": "20:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "n/a",
+    "description": "Learn to apply interactions to a dynamic 3D object in augmented reality. Implement effective UI and UX concepts through AR best practices and the industry\u2019s most commonly used tools \u2013 Unity 3D Engine and Vuforia.\nVuforia is a powerful Augmented Reality platform that allows you to quickly deploy interactive 3D experiences. Used by enterprise and consumer-facing products, Vuforia is a critical tool to learn for any AR creator.",
+    "type": "5",
+    "event_id": "fsmo79gdom6lfaf28sqpnoiurc"
+  },
+  "https://cmu.joinhandshake.com/events/521958": {
+    "name": "Mobomo: July Digital Career Fair",
+    "dates": [
+      {
+        "start_date": "2020-07-15",
+        "end_date": "n/a",
+        "start_time": "18:00:00",
+        "end_time": "19:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://attendee.gotowebinar.com/register/5307436493112092427",
+    "description": "Join Mobomo on Wednesday, July 15 from 6 - 7 pm EST for our Digital Career Fair. You'll learn more about our company and our various departments, including Engineering, Project Management, and UX Design.\n\nFollowing the information session, we will announce open positions and hold a brief Q&amp;A session to answer any questions.\n\nIf interested in Mobomo and the tech industry, please register to attend.",
+    "type": "1",
+    "event_id": "9pg0lh4i60f6viehehqs6ibjog"
+  },
+  "https://cmu.joinhandshake.com/events/523168": {
+    "name": "Virtual Chat with the Actuaries!",
+    "dates": [
+      {
+        "start_date": "2020-07-16",
+        "end_date": "n/a",
+        "start_time": "14:00:00",
+        "end_time": "15:00:00",
+        "timezone": "CDT"
+      }
+    ],
+    "location": "Any Handshake student with a link to this event can view and RSVP",
+    "description": "Aon plc (NYSE:AON) is a leading global professional services firm providing a broad range of risk, retirement and health solutions. Our 50,000 colleagues in 120 countries empower results for clients by using proprietary data and analytics to deliver insights that reduce volatility and improve performance.",
+    "type": "2",
+    "event_id": "40kf6ufp0fo4jtmd6oaejnkdps"
+  },
+  "https://cmu.joinhandshake.com/events/522678": {
+    "name": "SLB Insights: A Day in the Life of a Manufacturing & Sustainability Engineer",
+    "dates": [
+      {
+        "start_date": "2020-07-21",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "CDT"
+      }
+    ],
+    "location": "https://schlumberger.zoom.us/webinar/register/2915935264030/WN_EBHGt-epTRqYGYjuYTFxOg",
+    "description": "Come learn about the in's and out's of what our Manufacturing and Design Engineers' life and careers look like. You will be guided by some up and coming engineers within the company, learn what type of projects they have worked on so far, and hear their insights to culture, learning programs and career development.",
+    "type": "4",
+    "event_id": "biujaletnlgm2ru98hu47ajbl8"
+  },
+  "https://cmu.joinhandshake.com/events/523238": {
+    "name": "Innovation in Technology at Moody's",
+    "dates": [
+      {
+        "start_date": "2020-07-21",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "14:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://moodys.zoom.us/j/91710468405",
+    "description": "Moody's is an essential component of the global capital markets, providing credit ratings, research, tools and analysis that contribute to transparent and integrated financial markets. Moody's Corporation is the parent company of Moody's Investors Service, which provides credit ratings and research covering debt instruments and securities, and Moody's Analytics, which offers leading-edge software, advisory services and research for credit and economic analysis and financial risk management.\n\nThe current landscape of emerging technology is driving innovation at Moody\u2019s within the Moody\u2019s Analytics Accelerator (MAA). During this event you will hear from our Senior Director of Machine Learning on where AI is today in technical feasibility and business impact on the financial services industry. Join us if you are interested to hear how Moody\u2019s is leveraging AI and Machine Learning to build new solutions!\n\nIn addition, during this event we will share information on how to apply to our Moody\u2019s Analytics Technology Rotation program, which allows for a rotation within the MAA. If interested in attending, please register for the event via Handshake!\n\nFor more details about the MATR program \u2013 go to our website at https://careers.moodys.com/students-and-graduates/moodys-analytics-technology-rotation-program/.",
+    "type": "5",
+    "event_id": "j6kk4okat83hresahi0nrmfdgc"
+  },
+  "https://cmu.joinhandshake.com/events/523496": {
+    "name": "Kaiser Permanente Summer Speaker Series: Mental Health and Resilience",
+    "dates": [
+      {
+        "start_date": "2020-07-21",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "PDT"
+      }
+    ],
+    "location": "n/a",
+    "description": "At Kaiser Permanente, we\u2019re committed to helping shape schools to be healthy and vibrant places of learning and development for all.\n\nJoin a discussion to learn more about what Kaiser Permanente is doing to support mental health and resilience in schools through RISE, as well as hear about our Playbook \u2018Planning for the Next Normal at School\u2019.\n\nWe will also host a Q&amp;A session to answer any questions you may have!",
+    "type": "4",
+    "event_id": "0u0sec91dgpm018v3ifb0khht4"
+  },
+  "https://cmu.joinhandshake.com/events/523464": {
+    "name": "*Design Thinking, presented by PwC",
+    "dates": [
+      {
+        "start_date": "2020-07-22",
+        "end_date": "n/a",
+        "start_time": "15:00:00",
+        "end_time": "16:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJIucOugpzguEtCxJSoua7L6aahHdsoyNmFi",
+    "description": "Attend to learn best practices in design thinking and strategies to apply the concepts to your work.\n\nRegistration is required: https://cmu.zoom.us/meeting/register/tJIucOugpzguEtCxJSoua7L6aahHdsoyNmFi\n\nView the full summer seminar schedule here: https://drive.google.com/file/d/1i2NumYu-3AIIm7eRk1t2P5f_1nQKwit8/view",
+    "type": "2",
+    "event_id": "5sqple3tvqss0hpk66bgoo3ghs"
+  },
+  "https://cmu.joinhandshake.com/events/515022": {
+    "name": "2020 Corporate & Strategy Women's Summit",
+    "dates": [
+      {
+        "start_date": "2020-07-29",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "18:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "n/a",
+    "description": "This event will give students with a grad range of Dec 2021 - June 2022 the opportunity to hear the stories of Women Leaders at our firm, and learn about opportunities available within Corporate &amp; Strategy: Internal Audit Analyst Program, Corporate Analyst Development Program, Global Finance &amp; Business Management Analyst Program, and the Chase Leadership Development Program. Those who self-identify as women are highly encouraged to apply. \n\nEach program hires a summer intern class, which is the leading pipeline into each program\u2019s full-time opportunity upon graduation.\n \nStudents will need to fill out an application for this event, as well as complete a Hirevue pre-recorded video interview. Recruiters will extend invitations to students who show high interest in the financial services industry, our represented programs, and the potential to start their career with us as an intern in 2021.\n\nPlease register by Wednesday, July 15th using the following link: https://jpmc.recsolu.com/external/events/UO3fIea1PHiIXn9pNjNF8g",
+    "type": "2",
+    "event_id": "s3ocqblug6h9d46c92j9cbsu4k"
+  },
+  "https://cmu.joinhandshake.com/career_fairs/17360": {
+    "name": "VIRTUAL EVENT: Carnegie Mellon University Alumni Virtual Career Fair 2020 Part 2",
+    "dates": [
+      {
+        "start_date": "2020-08-12",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "15:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "n/a",
+    "description": "Are you still looking for a full-time job? Not to worry! Back by popular demand, The Carnegie Mellon University Alumni Virtual Career Fair2020 Part 2 is an opportunity to connect with employers who are hiring for all roles.  This is the second time we have held a virtual career fair for the CMU Alumni population so you will not want to miss out! If you are a current student you may attend this fair if you have graduating in August 2020.\nThe CMU Alumni Virtual Career Fair occurs on August 12th from 1:00pm - 3:00pm EDT.  Please note the following reminders and instructions for the event. \nWe will be using Handshake for the virtual fair and it will allow you to browse 1:1 and group meetings with over \u200bnumerous employers:  \nWe know this is likely your first ever virtual fair experience and you might be unsure how to  prepare. Here are some resources to help you get started:   \u25cf How to register for virtual career fair sessions in Handshake \u25cf Handshake\u2019s Guide to Success at Virtual Career Fairs   If you\u2019re looking for more guidance on navigating a virtual career search, we are here for you!  The \u200bCMU CPDC and the Alumni Association is available to help you before, during, and after the fair.  Don\u2019t hesitate to email us any questions. We are looking forward to seeing you virtually at the fair! \ncareer@andrew.cmu.edualumni-email@andrew.cmu.edu",
+    "type": "1",
+    "event_id": "55ctg02eegqh5u00ordg1e1up0"
+  },
+  "https://cmu.joinhandshake.com/events/525311": {
+    "name": "Yelping From Home: The Tech Talk Series",
+    "dates": [
+      {
+        "start_date": "2020-07-21",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "PDT"
+      }
+    ],
+    "location": "n/a",
+    "description": "**Please RSVP through Eventbrite**\n\nYelp\u2019s mission is to connect people with great local businesses, and one of the teams working behind the scenes to make that happen is our five star engineering and product teams.\n\nPlaying an active role in our community is a value that we have strongly prioritized over the years. Typically we would invite you to come to Yelp\u2019s HQ to network, grab a slice of \u2018za, and learn about the technology and culture behind Yelp. With stay-at-home orders across the globe, Yelp (like many of you) has had no choice but to adapt to these changes. We understand that this is a strange and challenging time for many, so we\u2019d like to invite you to join us as we navigate this new normal for the tech community together.\n\nTo stay connected, create space for folks to collaborate and share some of the things Yelp has been working on, we are launching our very own virtual tech talk series. This series of talks will feature Yelpers from engineering and product and will focus on themes such as career development, technical skills, workplace challenges and Yelp\u2019s response to COVID-19.\n\nTalk: Why you should pursue public speaking and how to get there\n\nStarting a tech career as a minority is challenging. It could mean being the only one to speak against the popular opinion, or becoming more visible to get the same level of recognition.\n\nPublic speaking helps you achieve that and more. This talk shares tips on how to overcome the fear and ways to get started. Attendees will be prepared to brace for presenting from a team meeting to a conference.Yenny Cheung",
+    "type": "5",
+    "event_id": "0tnngehsosoh9golo76ic4set4"
+  },
+  "https://cmu.joinhandshake.com/events/524680": {
+    "name": "Standard Chartered 2021 Financial Markets Information Session",
+    "dates": [
+      {
+        "start_date": "2020-07-23",
+        "end_date": "n/a",
+        "start_time": "15:00:00",
+        "end_time": "16:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://bluejeans.com/69980574",
+    "description": "Standard Chartered launched for the first time a virtual internship program  to deliver a meaningful and enriching experience to 300+ interns across the Bank\u2019s businesses and support functions. Despite the limitation of placing its 2020 interns in physical offices due to the impact of COVID-19, Standard Chartered remains committed to our Early Career program initiatives. Our first ever virtual internship comes at a time where we are witnessing a significant shift to virtual in the workplace and is a trend that will be here to stay. This continued commitment to our internship program despite the current environment is not only the right thing to do, but also ensures our future workforce is ready to embrace a digital state of work.\nWe are already planning for the 2021 Financial Markets summer internship program.  As such we would like to invite you to join representatives from Financial Markets at a virtual information session.\n\nTarget Audience: Students entering their junior year in September\nStudents must be authorized to work in the US on a permanent basis. We do not accept OPT or F-1 visas.\nDate: Thursday, July 23\nTime: 3:00 \u2013 4:00pm EST\nVia: BlueJeans\n\nWe do hope you can join us and learn more about Standard Chartered and more specifically the 2021 Financial Markets internship program.\n\nPlease send your resume for consideration to Carmel O\u2019Byrne at Carmel.Obyrne@sc.com by July 17th. You will receive a confirmation of your invitation if selected.",
+    "type": "2",
+    "event_id": "si3binqk82r14ontqrec7rcqq4"
+  },
+  "https://cmu.joinhandshake.com/events/525380": {
+    "name": "AlphaSights Webinar: Career in Knowledge Search, Hong Kong Opportunities",
+    "dates": [
+      {
+        "start_date": "2020-07-24",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "17:00:00",
+        "timezone": "HKT"
+      }
+    ],
+    "location": "Any Handshake student with a link to this event can view and RSVP",
+    "description": "AlphaSights provides global investment and business professionals with on-demand access to business expertise across all industries and geographies. Through AlphaSights, decision makers from investment management, private equity, management consulting, and corporates connect with a dynamic network of industry experts that provide qualitative and quantitative market insights, industry expertise, and execution support. Leveraging cutting-edge technology and our global team of 800+ professionals in nine offices on three continents, we support our clients 24/7 around the globe. AlphaSights regularly ranks as one of the fastest-growing companies in the world. Learn more at alphasights.com.",
+    "type": "2",
+    "event_id": "mo1c30dnjciunvmhqegq76h4jk"
+  },
+  "https://cmu.joinhandshake.com/events/522677": {
+    "name": "*Learn to Earn: Negotiating Your Offer During a Pandemic Webinar* CMU Silicon Valley",
+    "dates": [
+      {
+        "start_date": "2020-07-24",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "14:00:00",
+        "timezone": "PDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJwsc--qqzksGN1Ko8T0k86cgWNe1EE6Q_KJ",
+    "description": "Learn to Earn: Negotiating Your Offer During a Pandemic Webinar facilitated by CMU-SV Assistant Director of Career Services, Leigh Mason\n\nWhen: Friday, July 24th from 1-2pm (PDT)\n\nWhere: via Zoom - Register here with your Andrew email address: https://cmu.zoom.us/meeting/register/tJwsc--qqzksGN1Ko8T0k86cgWNe1EE6Q_KJ\n\nBy the end of the webinar you will:\n-Learn crucial negotiating skills that will help you now and in the future\n-Strategize how you will discuss your salary and other benefits with your manager\n-Learn tips on leading the discussion with your internship manager, having empathy and an awareness of the circumstances happening in the world, while advocating for your total job offer package\n\nQuestions? leigh.mason@sv.cmu.edu",
+    "type": "1",
+    "event_id": "0572oue7gebipctra5kk0d92mo"
+  },
+  "https://cmu.joinhandshake.com/events/526550": {
+    "name": "Career Track Series: Driving Decisions with Data",
+    "dates": [
+      {
+        "start_date": "2020-07-27",
+        "end_date": "n/a",
+        "start_time": "18:30:00",
+        "end_time": "20:00:00",
+        "timezone": "HKT"
+      }
+    ],
+    "location": "n/a",
+    "description": "Calling all students and fresh graduates who are keen on exploring a career in e-commerce!\n\nShopee Singapore will be hosting several webinars in the upcoming weeks under our Career Track Series. We\u2019ll be covering topics related to Data, Engineering, Product Management and Design at Shopee.\n\nIf you are passionate about data and keen to learn more about its practical applications, tune in to our first webinar on 27 July to find out more!\n\nOur speakers from the Data team will be sharing insights into how data is being used at Shopee to drive decision-making, as well as how Shopee is developing the next generation of data talents. There will also be a live Q&amp;A session at the end, so grab your chance now to ask our speakers questions and learn more about their work in Data Science and Data Analytics!\n\nRegister via: https://bit.ly/CareerTrackSeries-1 by 26 July, 11.59pm!\n\n#CareerTrackSeries #TeamShopee",
+    "type": "5",
+    "event_id": "5jq9aiagt3g71sciqi9cj5dse4"
+  },
+  "https://cmu.joinhandshake.com/events/523467": {
+    "name": "*Business Chemistry, presented by Deloitte",
+    "dates": [
+      {
+        "start_date": "2020-07-27",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJ0ufu-vrDIqGNXb8e-sTfVAUsyuNmbuwwi3",
+    "description": "During Business Chemistry Fundamentals with Deloitte Consulting, we\u2019ll be spending some time exploring Business Chemistry. Business Chemistry is an approach to strengthening teams and enhancing business relationships. The tool identifies four different types, each characterized by a stable pattern of behaviors and preferences in the workplace. Understanding similarities and differences enables individuals and teams to flex in order to better accommodate different styles.\n\nIn advance of the session, you will have the opportunity to take the Business Chemistry assessment in order to learn your own Business Chemistry type.\n\nRegistration is required: https://cmu.zoom.us/meeting/register/tJ0ufu-vrDIqGNXb8e-sTfVAUsyuNmbuwwi3\n\nThe speakers are:\nI-Ping, a CMU Alum, is an innovation and technology evangelist, and a leader in Deloitte\u2019s Health Care Life Sciences practice. He has over 20 years of experience in the areas of successfully delivering technology strategy, enterprise architecture, enterprise business transformations, information management and large-scale strategic information systems designs and implementations for his clients.\n\nLinda has had several roles at Deloitte, most recently as a Manager in Learning and Development for Deloitte\u2019s consulting business. She has a passion for Deloitte\u2019s Business Chemistry and is excited to bring a webinar to CMU!\n\nView the full summer seminar schedule here: https://drive.google.com/file/d/1i2NumYu-3AIIm7eRk1t2P5f_1nQKwit8/view",
+    "type": "2",
+    "event_id": "55ndqtjngjecr6s0hg5eat7dko"
+  },
+  "https://cmu.joinhandshake.com/events/526564": {
+    "name": "Uncovering Quality Assurance (QA): Who we are and what we do?",
+    "dates": [
+      {
+        "start_date": "2020-07-28",
+        "end_date": "n/a",
+        "start_time": "19:30:00",
+        "end_time": "20:30:00",
+        "timezone": "HKT"
+      }
+    ],
+    "location": "n/a",
+    "description": "Attention to all Software Engineers, and Computing &amp; Engineering students!\n\nTech@Shopee will be organising a live webinar on 28 July, featuring Shopee\u2019s very own QA engineer as he introduces more about Quality Assurance (QA) in Shopee!\n\nQA is important in ensuring that our e-commerce platform is of the highest standard. Join us in this webinar to learn more about what our Shopee QA team does behind-the-scenes to assure overall product quality in a fast-paced, fast-changing environment for the long-term.\n\nWhat to expect:\n- Our techniques to assure quality\n- How we improve quality as a process\n- What makes a good QA\n\nSign up here to register your interest for the webinar, and learn more about our software engineering openings in Singapore!",
+    "type": "5",
+    "event_id": "dert65absgmjrf0tp6d8vk2n6c"
+  },
+  "https://cmu.joinhandshake.com/events/526575": {
+    "name": "Design Language System 101: From Consistency to Market Localisation",
+    "dates": [
+      {
+        "start_date": "2020-07-29",
+        "end_date": "n/a",
+        "start_time": "19:30:00",
+        "end_time": "20:30:00",
+        "timezone": "HKT"
+      }
+    ],
+    "location": "n/a",
+    "description": "Are you a UI/UX designer looking to improve your capabilities?\n\nShopee will be organising a webinar session on 29 July, which will feature our own Design Team\u2019s Senior UI/UX Designer, as she shares with you how Shopee manages to bring consistency into market localisation in our Design Language System.\n\nDuring the session, you can find out more about the key Shopee design projects, and career opportunities with the Shopee Design Team. So, if you\u2019re interested in understanding more about how you can improve your market localisation processes, and better your own design workflow, this webinar is for you!\n\nAlso, stand a chance to have your questions answered by our speaker via our registration form, or even during the live Q&amp;A session.\n\nRegister here now: https://careers.shopee.sg/event-detail/364/\n\n#TechatShopee",
+    "type": "3",
+    "event_id": "d4rne66tnpd446d0sg2rlorhpk"
+  },
+  "https://cmu.joinhandshake.com/events/524414": {
+    "name": "ORISE Department of Defense Internships - Virtual Recruitment Fair",
+    "dates": [
+      {
+        "start_date": "2020-07-29",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "15:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://orau.6connex.com/event/LIVE/bpp20q3/login?utm_campaign=BPP20Q3&utm_medium=handshake",
+    "description": "Are you a college student or recent graduate looking to gain valuable experience in your STEM field?\n\nThis virtual event is for you!\n\nOn Wednesday, July 29, from 12 to 3 p.m. ET, the Oak Ridge Institute for Science and Education (ORISE) is hosting a virtual recruitment fair to highlight the variety of paid internships, fellowships and research associate appointments available within our Research Participants Program.\n\nDuring the event, you\u2019ll have the opportunity to:\n\nCHAT with recruiters and mentors from different Department of Defense research programs.\n\nLEARN about the research conducted within those programs.\n\nEXPLORE the paid internships and research associate appointments.\n\nCONNECT with recruiters and get your questions answered.\n\nRepresentatives from the following programs will be in attendance:\n\n- Air Force Institute of Technology\n- Air Force Research Laboratory\n- Army Aeromedical Research Laboratory\n- Army Institute of Surgical Research\n- Army Corps of Engineers\n- Army Medical Research Institute of Chemical Defense\n- Army Public Health Center\n- Army Research Institute of Environmental Medicine\n- Defense Health Agency\n- Extremity Trauma and Amputation Center of Excellence\n- National Geospatial-Intelligence Agency\n- Naval Aircraft Modification Unit\n- Naval Medical Research Center\n- Naval Postgraduate School\n- Navy Experimental Diving Unit\n- Navy and Marine Corps Public Health Center\n- Walter Reed Army Institute of Research",
+    "type": "4",
+    "event_id": "72em1eoc5qs01k4stbpo7uele0"
+  },
+  "https://cmu.joinhandshake.com/events/526560": {
+    "name": "Career Track Series: Fireside Chat with Shopee Engineering Leads",
+    "dates": [
+      {
+        "start_date": "2020-08-04",
+        "end_date": "n/a",
+        "start_time": "18:30:00",
+        "end_time": "20:00:00",
+        "timezone": "HKT"
+      }
+    ],
+    "location": "n/a",
+    "description": "Next up in Shopee Singapore\u2019s Career Track Series, we will be hosting a Fireside Chat on 4 August to provide an insider\u2019s view into what Software Engineering entails in E-Commerce.\n\nJoin our leads from the Engineering team to learn more about how they have navigated their tech careers in Shopee, and ask them any burning questions you may have!\n\nRegister and submit your questions now via: https://bit.ly/CareerTrackSeries-2\nPlease do so by 3 August, 11.59pm.\n\n#CareerTrackSeries #TeamShopee",
+    "type": "5",
+    "event_id": "8uj91lod6cakj19dlvrfjrhn28"
+  },
+  "https://cmu.joinhandshake.com/events/526846": {
+    "name": "*Career Fair Prep and Recruiting in the Current Landscape:  Returning/Continuing students",
+    "dates": [
+      {
+        "start_date": "2020-08-13",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:30:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://cmu.zoom.us/meeting/register/tJIkdu2vrTIvHNYya9qlo_1eBcyO1GILEEER",
+    "description": "This workshop is for returning/continuing College of Engineering graduate students and will be led by the College of Engineering Graduate Student Career Consultant team.\n\nREGISTRATION IS REQUIRED: https://cmu.zoom.us/meeting/register/tJIkdu2vrTIvHNYya9qlo_1eBcyO1GILEEER\n\nLearn how to prepare for Fall virtual career fairs (TOC + Encompass) and online recruiting activities. \n\n\u2022\tGain an in-depth understanding of the virtual career fair platform that will be used for CMU\u2019s fall fairs. \n\u2022\tRefresh your memory on how to introduce yourself to employers, utilize Handshake to effectively identify events and job/internship opportunities, and understand how to successfully navigate the current career landscape.\n\u2022\tWalk away with a pre-career fair checklist to properly prepare, best practices and a strategic plan for your job/internship search, and a better understanding of CMU\u2019s fall recruitment season.",
+    "type": "1",
+    "event_id": "ju5r3g51o6r7r4hq41rbrk2n7o"
+  },
+  "https://cmu.joinhandshake.com/events/526586": {
+    "name": "Shopee Singapore Backend Virtual Recruitment Day",
+    "dates": [
+      {
+        "start_date": "2020-08-15",
+        "end_date": "2020-08-16",
+        "start_time": "00:00:00",
+        "end_time": "23:55:00",
+        "timezone": "HKT"
+      }
+    ],
+    "location": "n/a",
+    "description": "Fuss-free, fast-paced, fast-tracked.\n\nShopee Singapore welcomes challenge-lovers to participate in our fast-tracked single-day interviews and accelerate your career with us!\n\nPositions Available:\n1) Platform Engineering - Server Developer:\n- Fresh Grad: https://careers.shopee.sg/job-detail/2263/\n- Experienced: https://careers.shopee.sg/job-detail/1248/\n2) Software Engineer - Backend/Server:\n- Fresh Grad: https://careers.shopee.sg/job-detail/2935/\n- Experienced: https://careers.shopee.sg/job-detail/2934/\n\nApplication Process:\n- Choose your preferred role &gt; Submit Resume &gt; Screening Round &gt; Single-day Interviews &gt; Receive offer\n- Shortlisted candidates will be notified via email within 1 week's time\n\nRegistration Deadline: 9 Aug 2020",
+    "type": "5",
+    "event_id": "0fekjch2bsn97gu0m4lb7pvd04"
+  },
+  "https://cmu.joinhandshake.com/events/524477": {
+    "name": "Intelligent Systems Presentation on Robotics, Unmanned Systems, and related tech",
+    "dates": [
+      {
+        "start_date": "2020-09-09",
+        "end_date": "n/a",
+        "start_time": "18:00:00",
+        "end_time": "19:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "https://swri.webex.com/swri/j.php?MTID=m5056609b6da86c98f3b562ef8e69ee92",
+    "description": "Hear from the Intelligent Systems Vice President on SwRI's tech capabilities and the internal research we pursue to benefit humanity. Southwest Research Institute, founded in 1947, is an independent, nonprofit, applied research and development organization dedicated to pursuing innovation while benefiting humanity.  We pursue over 4,000 projects a year including our own internal research and development. Our SA, Texas campus has 1500 acres of state-of-the-art facilities and lab space to create and design in.  The SwRI family consists of more than 2600 staff members, within 9 different technical divisions. We pursue projects in deep sea to deep space, and everything in between! \nSwRI is a leader in machine learning methods development, assessment, and systems integration using the following methods, among others:\nDeep learning &amp; Neural Networks \u2013 Development of complex, memory intensive neural networks.\nComputer vision \u2013 Visual data are used to identify images and categorize individual characteristics and spectra features down to the pixel.\nMachine Learning Applications\nOur machine learning applications are as diverse as the clients we serve. Visit Client Services for a comprehensive list of industry solutions or these specific machine learning applications:\nBiomedical &amp; Healthcare\nHuman Performance Solutions\nBioinformatics &amp; Computer-aided Diagnostics\nMachine Vision &amp; Autonomous Robotics\nAutomation Solutions\nAutomated Driving Systems &amp; UGVs\nIndustrial Robotics &amp; Automation\nPerception Technologies for Dynamic Environments\nEnergy &amp; Environment\nMethane Leak Detection\nMass Spec Data Analysis\nData Analytics\nComplex Data Analysis\nScience Operations &amp; Data Analysis\nData Analytics &amp; Machine Learning\n\nWe streamline maintenance processes and implement new designs and software and provide custom training technology for government and industry clients in the aerospace industry. We specialize in modernizing, overhauling, and rejuvenating aging electronic and aerospace systems, particularly for the U.S. military. We work with U.S. and foreign government agencies and commercial clients.\nFor more than three decades, Southwest Research Institute (SwRI) has been a recognized leader in space science research as well as in the development of spacecraft instrumentation, avionics and electronics for both government and industry. A traditional strength of the Space Science Department is the design and fabrication of instruments for the in-situ measurement of space plasmas, the dilute ionized gases that populate the immediate space environments of the Earth and other solar system bodies as well as interplanetary space.",
+    "type": "1",
+    "event_id": "j197or8ile6pdhuq6pvr5kkjug"
   }
 }
