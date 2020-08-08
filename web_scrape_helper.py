@@ -207,10 +207,17 @@ def fetch_events(driver, wait):
   event_link.click()
 
   #access each event page to get detail
-  time.sleep(2)
-  events = driver.find_elements_by_class_name('style__title___2VR10')
-  print(events)
-  results = dict()
+  events = []
+  while True:
+    time.sleep(2)
+    events = driver.find_elements_by_class_name('style__title___2VR10')
+    results = dict()
+
+    button = driver.find_element_by_xpath('//button[@aria-label="next page"]')
+    if button.get_attribute('disabled'):
+      break
+    else:
+      button.click()
 
   print("Fetching each event...")
   for event in events:

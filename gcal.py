@@ -1,7 +1,6 @@
 from web_scrape_helper import *
 from gcal_helper import *
 from gcal_variables import *
-from date_time_helper import *
 import time, json, os, sys
 
 def main():
@@ -112,14 +111,5 @@ def main():
 
 
 
-# if __name__ == '__main__':
-#   main()
-
-event_url = 'https://cmu.joinhandshake.com/career_fairs/17360?ref=events-search'
-email = os.environ["HANDSHAKE_EMAIL"]
-password = os.environ["HANDSHAKE_PASSWORD"]
-
-driver = setup(5)
-login(driver, email, password)
-# career_fair_detail(driver, event_url)
-event_detail(driver, "https://cmu.joinhandshake.com/events/531577?ref=events-search", 5)
+if __name__ == '__main__':
+  main()
