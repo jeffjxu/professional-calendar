@@ -11,7 +11,7 @@ import re, time, json
 # :return: a webdriver object 
 def setup(wait):
   opts = Options()
-  opts.headless = False
+  opts.headless = True
   driver = webdriver.Firefox(options=opts)
   driver.implicitly_wait(5)
   return driver
@@ -190,7 +190,7 @@ def career_fair_detail(driver, event_url):
     'dates': dates,
     'location': location,
     'description': description,
-    'type': 'general',
+    'type': '1',
     'event_id': 'n/a'
   }
 
@@ -209,9 +209,10 @@ def fetch_events(driver, wait):
   #access each event page to get detail
   events = []
   while True:
-    time.sleep(2)
-    events = driver.find_elements_by_class_name('style__title___2VR10')
-    results = dict()
+    time.sleep(5)
+    event_objs = driver.find_elements_by_class_name('style__title___2VR10')
+    for event_obj in event_objs:
+      events.append(event_obj.get_attribute('href'))
 
     button = driver.find_element_by_xpath('//button[@aria-label="next page"]')
     if button.get_attribute('disabled'):
@@ -219,9 +220,10 @@ def fetch_events(driver, wait):
     else:
       button.click()
 
+  print(events)
   print("Fetching each event...")
-  for event in events:
-    event_url = event.get_attribute('href')
+  results = dict()
+  for event_url in events:
     if 'career_fairs' in event_url:
       results[event_url] = career_fair_detail(driver, event_url)
     else:

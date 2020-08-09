@@ -17,7 +17,7 @@ event = {
     ],
     "location": "n/a",
     "description": "This event will give students who self-identify as women with a grad range of Dec 2021 - June 2022 the opportunity to hear the stories of Women Leaders at our firm, and learn about opportunities available within Corporate &amp; Strategy: Internal Audit Analyst Program, Corporate Analyst Development Program, Global Finance &amp; Business Management Analyst Program, and the Chase Leadership Development Program.\n\nEach program hires a summer intern class, which is the leading pipeline into each program\u2019s full-time opportunity upon graduation.\n \nStudents will need to fill out an application for this event, as well as complete a Hirevue pre-recorded video interview. Recruiters will extend invitations to students who show high interest in the financial services industry, our represented programs, and the potential to start their career with us as an intern in 2021.\n\nPlease register by Wednesday, July 15th using the following link: https://jpmc.recsolu.com/external/events/UO3fIea1PHiIXn9pNjNF8g",
-    "type": "2",
+    "type": [1, 2, 3, 4, 5],
     "event_id": "b48r214i7u0vbh63jid1363ggs"
   }
 
