@@ -203,7 +203,7 @@ def career_fair_detail(driver, event_url):
 def fetch_events(driver, wait):
   #go to event page
   print("Going to event page...")
-  event_link = driver.find_element_by_link_text('Events')
+  event_link = driver.find_element_by_xpath('//a[@href="/events"]')
   event_link.click()
 
   #access each event page to get detail
