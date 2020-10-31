@@ -12,7 +12,7 @@ def main():
     password = os.environ["HANDSHAKE_PASSWORD"]
 
     #use a larger number if attributes are not found, this is dependent on your internet speed
-    wait = 5
+    wait = 3
 
     # fetch event details from handshake
     driver = setup(wait)

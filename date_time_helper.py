@@ -50,25 +50,27 @@ def format_time(time):
 # :param date_time (str) - a string containing date and time
 # :return: a tuple of start_date, end_date, start_time, end_time, timezone
 def parse_date_time(date_time):
-  date_time = date_time.split(', ')
+  date_time = date_time.replace(",", "").split()
+  print(date_time)
 
-  # parse date for a standard event
-  if len(date_time) == 3:
-    start_date = format_date(date_time[1])
+  # single day events (Monday, September 21, 2020 5:30pm - 7:30pm EDT)
+  if len(date_time) == 8:
+    start_date = format_date(date_time[1] + " " + date_time[2] + " " + date_time[3])
     end_date = 'n/a'
-    time = date_time[2].split()
-    start_time = format_time(time[0] + time[1])
-    end_time = format_time(time[3] + time[4])
-    timezone = time[5]
+    start_time = format_time(date_time[4])
+    end_time = format_time(date_time[6])
+    timezone = date_time[7]
 
-  # parse date for a career fair
+  # multi-day events (Wednesday, August 12, 2020 5:00pm - Wednesday, October 21, 2020 5:00pm)
   else:
-    start_date = format_date(date_time[1])
-    end_date = format_date(date_time[3])
-    start_time = format_time(date_time[2].split()[0] + date_time[2].split()[1])
-    end_time = format_time(date_time[4].split()[0] + date_time[4].split()[1])
-    timezone = date_time[4].split()[2]
+    start_date = format_date(date_time[1] + " " + date_time[2] + " " + date_time[3])
+    end_date = format_date(date_time[7] + " " + date_time[8] + " " + date_time[9])
+    start_time = format_time(date_time[4])
+    end_time = format_time(date_time[10])
+    timezone = "EDT"
+  
   return (start_date, end_date, start_time, end_time, timezone)
+
 
 # convert a date and time to datetime string for Google Calendar
 # :param time (str) - time in hh:mm:ss
@@ -108,7 +110,7 @@ def timezone_to_utc(timezone):
     "O": "-02:00", "BRST": "-02:00", "FNT": "-02:00", "PMDT": "-02:00", "UYST": "-02:00", "WGST": "-02:00",
     "N": "-01:00", "AZOT": "-01:00", "CVT": "-01:00", "EGT": "-01:00",
     "Z": "+00:00", "EGST": "+00:00", "GMT": "+00:00", "UTC": "+00:00", "WET": "+00:00", "WT": "+00:00",
-    "A": "+01:00", "CET": "+01:00", "DFT": "+01:00", "WAT": "+01:00", "WEDT": "+01:00", "WEST": "+01:00",
+    "A": "+01:00", "CET": "+01:00", "DFT": "+01:00", "WAT": "+01:00", "WEDT": "+01:00", "WEST": "+01:00", "BST": "+01:00",
     "B": "+02:00", "CAT": "+02:00", "CEDT": "+02:00", "CEST": "+02:00", "EET": "+02:00", "SAST": "+02:00", "WAST": "+02:00",
     "C": "+03:00", "EAT": "+03:00", "EEDT": "+03:00", "EEST": "+03:00", "IDT": "+03:00", "MSK": "+03:00",
     "D": "+04:00", "AMT": "+04:00", "AZT": "+04:00", "GET": "+04:00", "GST": "+04:00", "KUYT": "+04:00", "MSD": "+04:00", "MUT": "+04:00", "RET": "+04:00", "SAMT": "+04:00", "SCT": "+04:00",

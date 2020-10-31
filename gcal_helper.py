@@ -158,6 +158,7 @@ def create_event_resource(event_url, raw_event):
 # :param event_url (str) - url of a event
 # :return: event_id (str) - Google Calendar event ID of the added event
 def add_one_event(service, cal_id, event, event_url):
+  print(event_url)
   event_resources = create_event_resource(event_url, event)
   for event_resource in event_resources:
     event = service.events().insert(calendarId=cal_id, body=event_resource).execute()

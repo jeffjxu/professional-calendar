@@ -66,7 +66,9 @@ def event_detail(driver, event_url, wait):
 
   # find the date
   try:
-    date_time = driver.find_element_by_class_name('style__date___2Y5fm').get_attribute('innerHTML').replace('<span>', '').replace('</span>', '').strip()
+    date_time = driver.find_element_by_class_name('style__time___Jfx8g').get_attribute('innerHTML').strip()
+    clean = re.compile('<.*?>')
+    date_time = re.sub(clean, '', date_time)
     print(date_time)
     (start_date, end_date, start_time, end_time, timezone) = parse_date_time(date_time)
     print("dates found")
@@ -203,8 +205,9 @@ def career_fair_detail(driver, event_url):
 def fetch_events(driver, wait):
   #go to event page
   print("Going to event page...")
-  event_link = driver.find_element_by_xpath('//a[@href="/events"]')
-  event_link.click()
+  # event_link = driver.find_element_by_xpath('//a[@href="/events"]')
+  # event_link.click()
+  driver.get("https://cmu.joinhandshake.com/events")
 
   #access each event page to get detail
   events = []

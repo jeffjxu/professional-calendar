@@ -3,7 +3,7 @@ from gcal_helper import *
 from gcal_variables import *
 import time, json, os, sys
 
-event_url = "https://cmu.joinhandshake.com/events/515022"
+event_url = "https://cmu.joinhandshake.com/events/539179?ref=events-search"
 event = {
     "name": "2020 Corporate & Strategy Women's Summit",
     "dates": [
@@ -21,14 +21,19 @@ event = {
     "event_id": "b48r214i7u0vbh63jid1363ggs"
   }
 
+email = os.environ["HANDSHAKE_EMAIL"]
+password = os.environ["HANDSHAKE_PASSWORD"]
+wait = 5
+
 def main():
   print("running manual tests")
   service = create_api_endpoint(scopes)
+  driver = setup(wait)
+  login(driver, email, password)
+  print(event_detail(driver, 'https://app.joinhandshake.com/events/571396?ref=events-search', wait))
+  driver.quit()
 
-  # event_id = add_one_event(service, test_id, event, event_url)
-  # print(event_id)
-
-  delete_one_event(service, test_id, 'guhs4m5ooitcmns1t2smjpag10')
+  
 
 if __name__ == '__main__':
   main()
