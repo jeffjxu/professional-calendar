@@ -2887,3 +2887,10 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 1604185215987	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: uncaught exception: Object
 1604186040959	Marionette	INFO	Stopped listening on port 54641
+1605468431218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\chick\\AppData\\Local\\Temp\\rust_mozprofile47zyUT"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605468434241	Marionette	INFO	Listening on port 52616
+1605468434440	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605468853713	Marionette	INFO	Stopped listening on port 52616
