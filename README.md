@@ -33,7 +33,15 @@ cal_id = '<CALENDAR_ID>'
 $env:HANDSHAKE_EMAIL = '<YOUR HANDSHAKE EMAIL>'
 $env:HANDSHAKE_PASSWORD = '<YOUR HANDSHAKE PASSWORD>'
 ```
+and change gcal.py to use environment variables  
+or  
+set variables in gcal_variable.py  
+```
+handshake_username = "<YOUR HANDSHAKE EMAIL>"
+handshake_password = "<YOUR HANDSHAKE PASSWORD>"
+```
 or follow the instructions for your OS
+
 
 ## Running
 To fetch events from Handshake
