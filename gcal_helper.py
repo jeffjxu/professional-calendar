@@ -5,8 +5,8 @@ import json
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-from date_time_helper import *
-from gcal_variables import *
+import date_time_helper
+import gcal_variables
 
 # create a Google Calendar API endpoint
 # :param scopes (list) - a list of strings containing auth links
@@ -142,10 +142,10 @@ def create_event_resource(event_url, raw_event):
         'location': raw_event['location'],
         'description': create_description(event_url, raw_event['description']),
         'start': {
-          'dateTime': convert_datetime(date['start_time'], date['start_date'], date['timezone']),
+          'dateTime': date_time_helper.convert_datetime(date['start_time'], date['start_date'], date['timezone']),
         },
         'end': {
-          'dateTime': convert_datetime(date['end_time'], date['start_date'], date['timezone']),
+          'dateTime': date_time_helper.convert_datetime(date['end_time'], date['start_date'], date['timezone']),
         }
       }
       events.append(event)
@@ -200,18 +200,19 @@ def add_all_events(service, events):
     calendar = events[event_url]['type']
     
     # change this to your own calendars
+    calendar_id = ""
     if calendar == '1':
-      calendar_id = general_id
+      calendar_id = gcal_variables.general_id
     elif calendar == '2':
-      calendar_id = business_id
+      calendar_id = gcal_variables.business_id
     elif calendar == '3':
-      calendar_id = design_id
+      calendar_id = gcal_variables.design_id
     elif calendar == '4':
-      calendar_id = engineering_id
+      calendar_id = gcal_variables.engineering_id
     elif calendar == '5':
-      calendar_id = tech_id
+      calendar_id = gcal_variables.tech_id
     elif calendar == '6':
-      calendar_id = test_id
+      calendar_id = gcal_variables.test_id
     event_id = add_one_event(service, calendar_id, events[event_url], event_url)
     events[event_url]['event_id'] = event_id
   

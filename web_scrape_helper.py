@@ -3,8 +3,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from date_time_helper import *
-import re, time, json
+import date_time_helper
+import re, time
 
 # sets up a headless Firefox webdriver
 # :param wait (int) - the implicit wait time of the driver
@@ -69,8 +69,7 @@ def event_detail(driver, event_url, wait):
     date_time = driver.find_element_by_class_name('style__time___Jfx8g').get_attribute('innerHTML').strip()
     clean = re.compile('<.*?>')
     date_time = re.sub(clean, '', date_time)
-    print(date_time)
-    (start_date, end_date, start_time, end_time, timezone) = parse_date_time(date_time)
+    (start_date, end_date, start_time, end_time, timezone) = date_time_helper.parse_date_time(date_time)
     print("dates found")
   except:
     start_date = 'n/a'
@@ -159,7 +158,7 @@ def career_fair_detail(driver, event_url):
       date_time = date_time[:i] + ' ' + date_time[i:]
     dates = []
 
-    (start_date, end_date, start_time, end_time, timezone) = parse_date_time(date_time)
+    (start_date, end_date, start_time, end_time, timezone) = date_time_helper.parse_date_time(date_time)
     dates.append({'start_date': start_date, 'end_date': end_date, 'start_time': start_time, 'end_time': end_time, 'timezone': timezone})
     print("dates found")
   except:
@@ -205,8 +204,6 @@ def career_fair_detail(driver, event_url):
 def fetch_events(driver, wait):
   #go to event page
   print("Going to event page...")
-  # event_link = driver.find_element_by_xpath('//a[@href="/events"]')
-  # event_link.click()
   driver.get("https://cmu.joinhandshake.com/events")
 
   #access each event page to get detail

@@ -6047,22 +6047,6 @@
     "type": "5",
     "event_id": "kpfti83anias7294g2u3hv10bg"
   },
-  "https://cmu.joinhandshake.com/events/595959?ref=events-search": {
-    "name": "NSA Codebreaker Challenge",
-    "dates": [
-      {
-        "start_date": "2020-10-8",
-        "end_date": "2021-01-10",
-        "start_time": "08:00:00",
-        "end_time": "16:00:00",
-        "timezone": "EDT"
-      }
-    ],
-    "location": "n/a",
-    "description": "A renowned American journalist went missing while on assignment abroad. A criminal organization, well known for using drones in their kidnap-for-ransom, has claimed responsibility for the incident.\n\nYour mission is to:\n\n1. Locate the missing journalist and hostage takers' current position.\n\n2. Facilitate the recovery of the journalist and take actions to prevent another incident from happening!",
-    "type": "5",
-    "event_id": "r35deb0mc02k4o42ku8vtnq7lk"
-  },
   "https://cmu.joinhandshake.com/events/598024?ref=events-search": {
     "name": "*adidas University Creator Lab",
     "dates": [
@@ -8623,38 +8607,6 @@
     "type": "5",
     "event_id": "d0qsgd7tafdari7aeni8s3dmjg"
   },
-  "https://cmu.joinhandshake.com/events/611402?ref=events-search": {
-    "name": "*Student-Futures: Creative Tech",
-    "dates": [
-      {
-        "start_date": "2021-01-22",
-        "end_date": "n/a",
-        "start_time": "12:00:00",
-        "end_time": "13:30:00",
-        "timezone": "EST"
-      }
-    ],
-    "location": "n/a",
-    "description": "Join the School of Art and the Career and Professional Development Center in the next monthly installment of Student-Futures 2020-21!\n\nHear from a panel of current professionals in the industry of Creative Tech and find out how to get into the industry, as well as important ways of growing as a young professional.\nPanelists:\nMax Saltonstall, Developer Advocate at Google\nAlex Thayer, Head of Research at Amazon (Search)\nTBA",
-    "type": "3",
-    "event_id": "0v7bjalec77dm7egf3vt32oqdc"
-  },
-  "https://cmu.joinhandshake.com/events/611409?ref=events-search": {
-    "name": "*Student-Futures: Animation",
-    "dates": [
-      {
-        "start_date": "2021-01-22",
-        "end_date": "n/a",
-        "start_time": "16:00:00",
-        "end_time": "17:30:00",
-        "timezone": "EST"
-      }
-    ],
-    "location": "n/a",
-    "description": "Join the School of Art and the Career and Professional Development Center in the next monthly installment of Student-Futures 2020-21!\n\nHear from a panel of current professionals in the industry of Animation and find out how to get into the industry, as well as important ways of growing as a young professional.\nPanelists:\nCat Gulacsy, The Animation Project (The Mill)\nJamaal Bradley, Valve (Disney, Dreamworks)\nBrooke Keesling, Bento Box Animation (CalArts)",
-    "type": "3",
-    "event_id": "ekpiqbdfsbcflvlhcrflcbkeik"
-  },
   "https://cmu.joinhandshake.com/events/616822?ref=events-search": {
     "name": "November Coding Challenge",
     "dates": [
@@ -8942,5 +8894,453 @@
     "description": "Serving in the Peace Corps is a great way to immerse yourself in a new culture, learn a new language, and have the experience of a lifetime. Join us at this information session to learn about Volunteer experiences, ask questions about service, and gain tips to guide you through the application process. Please note this event will be held online. Please register in order to gain access. \n",
     "type": "1",
     "event_id": "ujvb46gv4i6papbc6o3nte5p00"
+  },
+  "https://cmu.joinhandshake.com/events/595959?ref=events-search": {
+    "name": "NSA Codebreaker Challenge",
+    "dates": [
+      {
+        "start_date": "2020-10-8",
+        "end_date": "2021-01-10",
+        "start_time": "05:00:00",
+        "end_time": "13:00:00",
+        "timezone": "EDT"
+      }
+    ],
+    "location": "n/a",
+    "description": "A renowned American journalist went missing while on assignment abroad. A criminal organization, well known for using drones in their kidnap-for-ransom, has claimed responsibility for the incident.\n\nYour mission is to:\n\n1. Locate the missing journalist and hostage takers' current position.\n\n2. Facilitate the recovery of the journalist and take actions to prevent another incident from happening!",
+    "type": "5",
+    "event_id": "5796timc38b1hj81jj3qeemb0s"
+  },
+  "https://cmu.joinhandshake.com/events/624883?ref=events-search": {
+    "name": "*Career Exploration Lab (Dietrich College)",
+    "dates": [
+      {
+        "start_date": "2021-01-7",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "14:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "What do the CEOs of Whole Foods Market and YouTube have in common?  They were both humanities majors in college!  Long story short, your degree does not determine your career pathway: it merely opens the door to many potential options!  \n\nWithin this working lab, we will help you evaluate your skills, interests and values, and how those qualities align with a potential career, despite your major.  By attending this lab, you will receive career exploration exercises, online resources, and guidance from your Dietrich College career consultants.  This working lab is designed for Dietrich College students, but all are welcome.\n\nTo attend, please use the following Zoom Link at the scheduled time:\nhttps://cmu.zoom.us/j/99985261316?pwd=ZU85d3VuLzFZYlRFS252OGVMMHkyZz09\n",
+    "type": "1",
+    "event_id": "8gpt0dhf05rppplpsmdeknqv7s"
+  },
+  "https://cmu.joinhandshake.com/events/628001?ref=events-search": {
+    "name": "*The Future of Work: Skills Development (Part 1)",
+    "dates": [
+      {
+        "start_date": "2021-01-12",
+        "end_date": "n/a",
+        "start_time": "09:00:00",
+        "end_time": "10:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "The Future of Work: Skills Development panel is part one of the Career &amp; Professional Development Center\u2019s (CPDC) two-part series focused on the skills needed to be successful in the workplace of tomorrow. This first session, which is on Tuesday, January 12th from 12-1pm ET and hosted via Zoom, will bring together experts from across the CMU community to discuss which skills are needed to be successful in the future workplace, why they will be important and how to begin developing them. Panelists include Scott Andes, Executive Director of the Block Center, David Mawhinney, Executive Director of the Swartz Center for Entrepreneurship, and Dr. Carla Bevins, Assistant Teaching Professor of Business Communication at Tepper School of Business; the conversation will be moderated by CPDC Career Consultant, Rachel Rosenfeld. All CMU students and staff are invited to attend!\n\nRegister here: https://cmu.zoom.us/webinar/register/WN_7yd9NnSuSNaz5nR_nzJBlQ\n",
+    "type": "1",
+    "event_id": "vjjdq8oscvaocqge72rc3c6luc"
+  },
+  "https://cmu.joinhandshake.com/events/633151?ref=events-search": {
+    "name": "*Virtual Career Fair Prep Workshop",
+    "dates": [
+      {
+        "start_date": "2021-01-13",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Are you looking for ways to make a good impression on employers and \u201cwork the room\u201d during virtual fairs?  This workshop will help you to successfully navigate the upcoming Spring virtual job fairs.  \n\nThe CPDC will share tips and success strategies for how you can prepare to meet recruiters virtually and stand out.  We will also make sure that you are familiar with the Handshake virtual fair platform we will be using. \n",
+    "type": "1",
+    "event_id": "7bou1aom2o89qqf76ro693oql0"
+  },
+  "https://cmu.joinhandshake.com/events/627658?ref=events-search": {
+    "name": "*The Future of Work: Skills in Action (Part 2)",
+    "dates": [
+      {
+        "start_date": "2021-01-14",
+        "end_date": "n/a",
+        "start_time": "09:00:00",
+        "end_time": "10:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "The Future of Work: Skills in Action is part two of the Career &amp; Professional Development Center's (CPDC) series focusing on the skills needed to be successful in the workplace of tomorrow.  This session will bring CMU alumni and recruiting partners together on a panel to discuss how these future skills are already being applied in today\u2019s workplace.  Panelists include Thomas Healy, Founder and CEO of Hyliion, Renee Blinkwolt, Executive Director of Ars Nova, Leah Lizarondo, CEO and Co-Founder of 412 Food Rescue, and Lisa Carlson, University Recruiter from Gartner.  All are encouraged to attend to learn how to be ready for the future of work!\n\nPlease click the link below to join the webinar:\nhttps://cmu.zoom.us/j/93054047962?pwd=TXlha1Z0Ty9odnhJSmFla1lMRVBHdz09\nPasscode: 107481\nOr iPhone one-tap : \nUS: +17866351003,,93054047962#,,,,,,0#,,107481# or +16513728299,,93054047962#,,,,,,0#,,107481# \nOr Telephone:\nDial(for higher quality, dial a number based on your current location): \nUS: +1 786 635 1003 or +1 651 372 8299 or +1 929 205 6099 or +1 267 831 0333 or +1 301 715 8592 or +1 312 626 6799 or +1 470 250 9358 or +1 470 381 2552 or +1 646 518 9805 or +1 669 219 2599 or +1 669 900 6833 or +1 720 928 9299 or +1 971 247 1195 or +1 206 337 9723 or +1 213 338 8477 or +1 253 215 8782 or +1 346 248 7799 or +1 602 753 0140 \nWebinar ID: 930 5404 7962\nPasscode: 107481\nInternational numbers available: https://cmu.zoom.us/u/aToDoZpEV\nView full description",
+    "type": "1",
+    "event_id": "oag1ifm9naao4etjpvq6hbnlhk"
+  },
+  "https://cmu.joinhandshake.com/events/633296?ref=events-search": {
+    "name": "How to Find and Compete for Competitive Fellowships: A Conversation with ProFellow Founder Vicki Johnson",
+    "dates": [
+      {
+        "start_date": "2021-01-19",
+        "end_date": "n/a",
+        "start_time": "09:00:00",
+        "end_time": "10:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "\nHow to Find and Compete for Competitive Fellowships: A Conversation with ProFellow Founder Vicki Johnson\n\nJoin us for a webinar to learn about ProFellow.com, an invaluable free resource for researching academic and professional fellowship opportunities at the undergraduate and graduate level; including opportunities for early and mid-career professionals, research and dissertation fellowships, international fellowships, summer fellowships and more. Dr. Vicki Johnson, a four-time fellow and Founder of ProFellow, will lead this webinar.\n\nDr. Vicki Johnson is Founder and Director of ProFellow, the world's leading online resource for information on professional and academic fellowships. Vicki is four-time fellowship recipient. She is an alumna of the New York City Urban Fellows Program, the German Chancellor Fellowship, the Herbert Scoville Jr. Peace Fellowship and the Ian Axford Fellowship in Public Policy, administered by Fulbright New Zealand. She also received a full funding award to complete her PhD at Massey University in New Zealand.\n\nThis event is being hosted by Heinz College Career Services and is open to all CMU students and alumni.",
+    "type": "1",
+    "event_id": "0bf8u49tdqellnver29mt133p4"
+  },
+  "https://cmu.joinhandshake.com/events/633394?ref=events-search": {
+    "name": "*Connecting and Networking with Professionals (& CMU Alumni)",
+    "dates": [
+      {
+        "start_date": "2021-01-19",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "In this workshop you will learn how to start and continue a conversation with professionals at job fairs and other networking events. Discover ways to make connections beyond the campus, and learn tips for following up and building relationships to keep your network active.\nJulia Davis, Appian Lead Recruiter  will be discussing the value of networking from a recruiter's perspective as well as answering your questions. \nAppian is also sponsoring the Jumpstart event. \n\nPrior to the workshop, registrants will be asked to look at the Networking module within  Career Launch on Canvas.\n",
+    "type": "1",
+    "event_id": "gir1vadjadvnf1d2tf590dgtf8"
+  },
+  "https://cmu.joinhandshake.com/events/640980?ref=events-search": {
+    "name": "Heinz College: Deloitte Consulting Government & Public Services Networking Event",
+    "dates": [
+      {
+        "start_date": "2021-01-20",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "This event is intended for Heinz students who are currently seeking a summer internship. Please join Heinz alumni for an informal conversation about work and culture at Deloitte. We will also be sharing information about our Government and Public Services Strategy summer internship role, but encourage all who are interested in learning more about Deloitte to join",
+    "type": "2",
+    "event_id": "gmj5m9rhkamke27npb1qmubu2o"
+  },
+  "https://cmu.joinhandshake.com/events/638486?ref=events-search": {
+    "name": "*Internship Showcase 2021",
+    "dates": [
+      {
+        "start_date": "2021-01-21",
+        "end_date": "n/a",
+        "start_time": "11:00:00",
+        "end_time": "14:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Do you plan to search for an internship or research experience in the near future? Not sure where to start? Then join us at our virtual Internship Showcase! \n\nYou\u2019ll have an opportunity to learn about a broad range of internships and research experiences while also gaining insight into how to acquire these types of experiences. Students that have worked with top companies, government agencies, university labs, and startups will discuss their experiences and answer your questions! Here is a look at the students who participated in the Internship Showcase last year: https://www.cmu.edu/career/students-and-alumni/early-engagement/internship-showcase-2020.html\n\nThis year, the Internship Showcase will be hosted through Zoom. Students will speak about their internship experience on 1 of the 7 industry-based panels throughout the day via Zoom Webinar. Each 50-minute panel session will consist of 4-5 students who have had internships or research experiences in the industry of focus. Each Panelist will have 3-5 minutes to share their internship experience using Google Slides, prior to taking questions from an audience of their peers.\n\nInternship Panels &amp; Times\n\n2:00 - 2:50pm  \n\u2022\tTechnology (Software Engineering, Information Security, Machine Learning)\n\u2022\tFine Arts (Practice, Production, and Administration)\n\n3:00 - 3:50pm\n\u2022\tEngineering (Mechanical, Civil, Chemical, Materials, Architecture)\n\u2022\tBusiness (Operations, Administration, and Project Management)\n\n4:00 - 4:50pm\n\u2022\tPolicy (Public Relations, Government Affairs, Non-Profits)\n\u2022\tScience &amp; Data (Research, Analytics, Scientific Labs)\n\u2022\tDesign &amp; Communications (UX/UI, Marketing, Web Dev, Technical Writing, Creative Writing)View full description",
+    "type": "1",
+    "event_id": "6gkdq6khmnpe6sp616754fahk0"
+  },
+  "https://cmu.joinhandshake.com/events/626725?ref=events-search": {
+    "name": "*Post-Completion OPT Information Session via ZOOM. WILL NOT BE IN-PERSON!",
+    "dates": [
+      {
+        "start_date": "2021-01-22",
+        "end_date": "n/a",
+        "start_time": "06:00:00",
+        "end_time": "07:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Until further notice, The Office of International Education\u2019s (OIE) will offer our mandatory Post-Completion OPT Information Sessions, for F-1 students who will be completing their degree programs in 2021, via ZOOM (NOT in-person). Therefore, if you want to attend this session, you MUST attend via your CMU ZOOM account. \n\nNOTE: The ZOOM meeting information will be emailed to students who have registered for this event the day before the Post-Completion OPT Information Session.\n\n",
+    "type": "1",
+    "event_id": "4g87ipc7pq88ikopluft1l784k"
+  },
+  "https://cmu.joinhandshake.com/events/611402?ref=events-search": {
+    "name": "*Student-Futures: Creative Tech",
+    "dates": [
+      {
+        "start_date": "2021-01-22",
+        "end_date": "n/a",
+        "start_time": "09:00:00",
+        "end_time": "10:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Join the School of Art and the Career and Professional Development Center in the next monthly installment of Student-Futures 2020-21!\n\nHear from a panel of current professionals in the industry of Creative Tech and find out how to get into the industry, as well as important ways of growing as a young professional.\nPanelists:\nMax Saltonstall, Developer Advocate at Google\nAlex Thayer, Head of Research at Amazon (Search)\nTBA",
+    "type": "3",
+    "event_id": "bec822hnvcc9ai0ak9ctlhtkeo"
+  },
+  "https://cmu.joinhandshake.com/events/611409?ref=events-search": {
+    "name": "*Student-Futures: Animation",
+    "dates": [
+      {
+        "start_date": "2021-01-22",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "14:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Join the School of Art and the Career and Professional Development Center in the next monthly installment of Student-Futures 2020-21!\n\nHear from a panel of current professionals in the industry of Animation and find out how to get into the industry, as well as important ways of growing as a young professional.\nPanelists:\nCat Gulacsy, The Animation Project (The Mill)\nJamaal Bradley, Valve (Disney, Dreamworks)\nBrooke Keesling, Bento Box Animation (CalArts)",
+    "type": "3",
+    "event_id": "u5thbo9h2evo7obncv3nmqf79g"
+  },
+  "https://cmu.joinhandshake.com/events/626726?ref=events-search": {
+    "name": "*Post-Completion OPT Information Session via ZOOM. WILL NOT BE IN-PERSON!",
+    "dates": [
+      {
+        "start_date": "2021-01-25",
+        "end_date": "n/a",
+        "start_time": "12:30:00",
+        "end_time": "14:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Until further notice, The Office of International Education\u2019s (OIE) will offer our mandatory Post-Completion OPT Information Sessions, for F-1 students who will be completing their degree programs in 2021, via ZOOM (NOT in-person). Therefore, if you want to attend this session, you MUST attend via your CMU ZOOM account. \n\nNOTE: The ZOOM meeting information will be emailed to students who have registered for this event the day before the Post-Completion OPT Information Session.\n\n",
+    "type": "1",
+    "event_id": "oi8bt5u155jsrji16oaqnep67o"
+  },
+  "https://cmu.joinhandshake.com/events/639003?ref=events-search": {
+    "name": "*Virtual Career Event and Fair Prep for Student - Athletes",
+    "dates": [
+      {
+        "start_date": "2021-01-25",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "17:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Unsure how to prepare for upcoming Spring 2021 virtual career fairs and events like Encompass? Wondering how to introduce yourself and conduct professional conversations in a virtual setting?\n\nIn this virtual workshop, we will cover:\n1)\tpreparing for, what to expect, and how to conduct yourself during Spring virtual career fairs and events like Encompass, JumpStart, etc. \n2)\tInformation on how to use Handshake\u2019s Virtual Career Fair product, the platform to be used for the event \n\nFollow this link to register and receive Zoom meeting information:\nhttps://cmu.zoom.us/meeting/register/tJ0tc-6vpzkuE9IstHz1zVsle7XgbdD4xxZz\n",
+    "type": "1",
+    "event_id": "tdet2nmo1joccjmlbvnn4rbqvc"
+  },
+  "https://cmu.joinhandshake.com/events/635336?ref=events-search": {
+    "name": "Google ERG Spotlight Series presents: Get to know members of the Black Googler Network (BGN)",
+    "dates": [
+      {
+        "start_date": "2021-01-25",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "16:15:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Get to know members of the Black Googler Network (BGN)\nJanuary 25 @ 4:00 PM PT / 6:00 PM CT / 7:00 PM ET\n\nHere at Google, we aim to build a workforce that is more representative of our users and create a  workplace that promotes a sense of belonging for everyone. At Google we have 16 Employee Resource Groups (ERG's) with over 35,000 members globally! We're excited to highlight five of these groups - The Black Googler Network (BGN), The Hispanic/ LatinX Googler Network (HOLA), The Women Googler Network (Women@), The Google American Indian Network (GAIN), and The Disability Alliance Network (DA). \n\nStarting on January 25th we\u2019ll be posting a video each day throughout the week highlighting members of these Employee Resource Groups as they share how they work together to make an impact within their communities and on Google's overall culture.\n\nDon't forget to add a reminder on your calendar after you've registered, check out the resources and FAQs, and then tune back in on this page for the events!\n\nRegister for the events and watch here: https://careersonair.withgoogle.com/events/erg-seriesView full description",
+    "type": "1",
+    "event_id": "vgdqb8sgffic8vq2100nvsi2h8"
+  },
+  "https://cmu.joinhandshake.com/events/635344?ref=events-search": {
+    "name": "Google's ERG Spotlight Series: Get to know members of the Women Googler Network (Women@)",
+    "dates": [
+      {
+        "start_date": "2021-01-26",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "16:15:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Get to know members of the Women Googler Network (Women@)\nJanuary 26 @ 4:00 PM PT / 6:00 PM CT / 7:00 PM ET\n\nHere at Google, we aim to build a workforce that is more representative of our users and create a workplace that promotes a sense of belonging for everyone. At Google we have 16 Employee Resource Groups (ERG's) with over 35,000 members globally! We're excited to highlight five of these groups - The Black Googler Network (BGN), The Hispanic/ LatinX Googler Network (HOLA), The Women Googler Network (Women@), The Google American Indian Network (GAIN), and The Disability Alliance Network (DA).\n\nStarting on January 25th we\u2019ll be posting a video each day throughout the week highlighting members of these Employee Resource Groups as they share how they work together to make an impact within their communities and on Google's overall culture.\n\nDon't forget to add a reminder on your calendar after you've registered, check out the resources and FAQs, and then tune back in on this page for the events!\n\nRegister for the events and watch here: https://careersonair.withgoogle.com/events/erg-seriesView full description",
+    "type": "1",
+    "event_id": "ck3i0gtggsehrgtttueju7ghio"
+  },
+  "https://cmu.joinhandshake.com/events/635352?ref=events-search": {
+    "name": "Google's ERG Spotlight Series: Get to know members of the Google American Indian Network (GAIN)",
+    "dates": [
+      {
+        "start_date": "2021-01-27",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "16:15:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Get to know members of the Google American Indian Network (GAIN)\nJanuary 27 @ 4:00 PM PT / 6:00 PM CT / 7:00 PM ET\n\nHere at Google, we aim to build a workforce that is more representative of our users and create a workplace that promotes a sense of belonging for everyone. At Google we have 16 Employee Resource Groups (ERG's) with over 35,000 members globally! We're excited to highlight five of these groups - The Black Googler Network (BGN), The Hispanic/ LatinX Googler Network (HOLA), The Women Googler Network (Women@), The Google American Indian Network (GAIN), and The Disability Alliance Network (DA).\n\nStarting on January 25th we\u2019ll be posting a video each day throughout the week highlighting members of these Employee Resource Groups as they share how they work together to make an impact within their communities and on Google's overall culture.\n\nDon't forget to add a reminder on your calendar after you've registered, check out the resources and FAQs, and then tune back in on this page for the events!\n\nRegister for the events and watch here: https://careersonair.withgoogle.com/events/erg-seriesView full description",
+    "type": "1",
+    "event_id": "bhuf6mcole2d288eblpt3l0gqs"
+  },
+  "https://cmu.joinhandshake.com/events/635357?ref=events-search": {
+    "name": "Google's ERG Spotlight Series: Get to know members of Google's Hispanic/LatinX+ Employee Network (HOLA)",
+    "dates": [
+      {
+        "start_date": "2021-01-28",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "16:15:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Get to know members of the Google's Hispanic/LatinX+ Employee Network (HOLA)\nJanuary 28 @ 4:00 PM PT / 6:00 PM CT / 7:00 PM ET\n\nHere at Google, we aim to build a workforce that is more representative of our users and create a workplace that promotes a sense of belonging for everyone. At Google we have 16 Employee Resource Groups (ERG's) with over 35,000 members globally! We're excited to highlight five of these groups - The Black Googler Network (BGN), The Hispanic/ LatinX Googler Network (HOLA), The Women Googler Network (Women@), The Google American Indian Network (GAIN), and The Disability Alliance Network (DA).\n\nStarting on January 25th we\u2019ll be posting a video each day throughout the week highlighting members of these Employee Resource Groups as they share how they work together to make an impact within their communities and on Google's overall culture.\n\nDon't forget to add a reminder on your calendar after you've registered, check out the resources and FAQs, and then tune back in on this page for the events!\n\nRegister for the events and watch here: https://careersonair.withgoogle.com/events/erg-seriesView full description",
+    "type": "1",
+    "event_id": "4lla5cfl015vml18dn43dr84fs"
+  },
+  "https://cmu.joinhandshake.com/events/635363?ref=events-search": {
+    "name": "Google's ERG Spotlight Series: Get to know members of Google's Disability Alliance Employee Network (DA)",
+    "dates": [
+      {
+        "start_date": "2021-01-29",
+        "end_date": "n/a",
+        "start_time": "16:00:00",
+        "end_time": "16:15:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Get to know members of Google's Disability Alliance Employee Network (DA)\nJanuary 28 @ 4:00 PM PT / 6:00 PM CT / 7:00 PM ET\n\nHere at Google, we aim to build a workforce that is more representative of our users and create a workplace that promotes a sense of belonging for everyone. At Google we have 16 Employee Resource Groups (ERG's) with over 35,000 members globally! We're excited to highlight five of these groups - The Black Googler Network (BGN), The Hispanic/ LatinX Googler Network (HOLA), The Women Googler Network (Women@), The Google American Indian Network (GAIN), and The Disability Alliance Network (DA).\n\nStarting on January 25th we\u2019ll be posting a video each day throughout the week highlighting members of these Employee Resource Groups as they share how they work together to make an impact within their communities and on Google's overall culture.\n\nDon't forget to add a reminder on your calendar after you've registered, check out the resources and FAQs, and then tune back in on this page for the events!\n\nRegister for the events and watch here: https://careersonair.withgoogle.com/events/erg-seriesView full description",
+    "type": "1",
+    "event_id": "ecn8s75oeaimmn78if1rpfc1rg"
+  },
+  "https://cmu.joinhandshake.com/events/643309?ref=events-search": {
+    "name": "Careers in Medical Writing",
+    "dates": [
+      {
+        "start_date": "2021-02-2",
+        "end_date": "n/a",
+        "start_time": "09:00:00",
+        "end_time": "10:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Do you love sciences?\n\nAre you looking for a writing career?\n\nJoin us for an informative presentation on how medical writers contribute to scientific communication and drug development.\n\nhttps://whitsellenovations.com/careers/",
+    "type": "4",
+    "event_id": "4gr6f7u4j4g5c28ofvahlhpst4"
+  },
+  "https://cmu.joinhandshake.com/events/629041?ref=events-search": {
+    "name": "Come Change the World with Lynk!",
+    "dates": [
+      {
+        "start_date": "2021-02-8",
+        "end_date": "n/a",
+        "start_time": "15:30:00",
+        "end_time": "16:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Please join us at our Virtual Information Session, where we'll discuss how Lynk uses satellites to connect over 5 billion people on this planet, everywhere on the planet. \n\nWho is Lynk?\nLynk has invented the technology that turns satellites into cell-towers-in-space, allowing ordinary mobile phones to stay connected everywhere.  No change to your phone (hardware or software) is required.  On February 24th, 2020, we successfully transmitted the world\u2019s first text message from an orbiting satellite to an unmodified mobile phone on the surface of the Earth.  To view this historic event, please visit www.lynk.world. \n\nLynk\u2019s mission is to provide universal mobile broadband connectivity for everyone.  Our vision is the whole world \u2026 connected, safe, and thriving.\n\nSo, if you have a particular interest in telecommunications, software-defined radios, robotics, or space systems, we\u2019d love to have you see on February 8th.  \n",
+    "type": "5",
+    "event_id": "1sbkhoautchl25pt52hafpv2pk"
+  },
+  "https://cmu.joinhandshake.com/events/643539?ref=events-search": {
+    "name": "Insight Partners Coffee Chats",
+    "dates": [
+      {
+        "start_date": "2021-02-9",
+        "end_date": "n/a",
+        "start_time": "13:00:00",
+        "end_time": "14:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Insight Partners is a leading global venture capital and private equity firm investing in high-growth technology and software ScaleUp companies that are driving transformative change in their industries. Founded in 1995, Insight Partners has invested in more than 400 companies worldwide and has raised through a series of funds more than $30 billion in capital commitments. Insight\u2019s mission is to find, fund, and work successfully with visionary executives, providing them with practical, hands-on software expertise to foster long-term success. Across its people and its portfolio, Insight encourages a culture around a belief that ScaleUp companies and growth create opportunity for all. For more information on Insight and all its investments, visit insightpartners.com or follow us on Twitter @insightpartners.",
+    "type": "2",
+    "event_id": "8ub69r7fht3um581hmkg8tn5tk"
+  },
+  "https://cmu.joinhandshake.com/events/626728?ref=events-search": {
+    "name": "*Post-Completion OPT Information Session via ZOOM. WILL NOT BE IN-PERSON!",
+    "dates": [
+      {
+        "start_date": "2021-02-10",
+        "end_date": "n/a",
+        "start_time": "08:00:00",
+        "end_time": "09:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Until further notice, The Office of International Education\u2019s (OIE) will offer our mandatory Post-Completion OPT Information Sessions, for F-1 students who will be completing their degree programs in 2021, via ZOOM (NOT in-person). Therefore, if you want to attend this session, you MUST attend via your CMU ZOOM account. \n\nNOTE: The ZOOM meeting information will be emailed to students who have registered for this event the day before the Post-Completion OPT Information Session.\n\n",
+    "type": "1",
+    "event_id": "8eiidbj2khf711j0c871nvop50"
+  },
+  "https://cmu.joinhandshake.com/events/640573?ref=events-search": {
+    "name": "Fidelity Consulting Design Strategy Information Session",
+    "dates": [
+      {
+        "start_date": "2021-02-11",
+        "end_date": "n/a",
+        "start_time": "15:30:00",
+        "end_time": "16:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Students are invited to join Fidelity Investments to learn about opportunities with the Design Strategy team in Fidelity Consulting. Fidelity\u2019s internal consulting group is in service of Fidelity\u2019s future\u2014we provoke, inspire, and galvanize action on the changes that matter. The Design Strategy team uses human-centered design to re-imagine current Fidelity product offerings or build new ones. Project teams dig into thought provoking, ambiguous problems that one might not immediately associate with the investment world. Interns partner with a design strategy lead charged with crafting research, representing the human lens of the problem, identifying insights, leading ideation, and testing through prototypes. \n\nAt Fidelity, we are focused on making our financial expertise broadly accessible and effective in helping people live the lives they want. We are a privately held company that places a high degree of value in creating and nurturing a work environment that attracts the best talent and reflects our commitment to our associates. We are proud of our diverse and inclusive workplace where we respect and value our associates for their unique perspectives and experiences. For information about working at Fidelity, visit FidelityCareers.com. \n",
+    "type": "3",
+    "event_id": "lim1fcg41f0ck1pfgrr7t1gkq8"
+  },
+  "https://cmu.joinhandshake.com/events/635870?ref=events-search": {
+    "name": "Work & Co Info Session",
+    "dates": [
+      {
+        "start_date": "2021-02-19",
+        "end_date": "n/a",
+        "start_time": "11:00:00",
+        "end_time": "12:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Work &amp; Co is a 350+ person digital product company with offices in the United States, Brazil, and Europe.\n\nThe best digital products require small, senior teams who are hands on from start to finish. Our clients - IKEA, Lyft, Google, Apple, Epic Games, MailChimp, Aesop, Aldo, and other admired companies - participate directly in an interactive process based on rapid prototyping, continuous testing, and fewer large meetings. No time sheets, just fully-dedicated teams. Forrester Research calls our approach \u201ca model to follow.\u201d",
+    "type": "4",
+    "event_id": "i6scach9jdcp3scqd8cfo60qds"
+  },
+  "https://cmu.joinhandshake.com/events/630818?ref=events-search": {
+    "name": "*Evaluating and Getting the Most Out of a Job Offer",
+    "dates": [
+      {
+        "start_date": "2021-02-22",
+        "end_date": "n/a",
+        "start_time": "14:00:00",
+        "end_time": "15:00:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "You finally received an offer - but now what? In this workshop, Career Consultants will cover how to evaluate all the components of an offer, and will provide strategies for effective negotiation, including how to negotiate, when to negotiate and how to turn down an offer while maintaining a good relationship with the employer. We will also review CMU\u2019s Offer Policies for students and employers, so that you understand your rights and responsibilities with respect to deadlines and managing multiple offers.\n\nPrior to the workshop, registrants will be asked to review the \u2018Ethical Search\u2019 module in Career Launch. ",
+    "type": "1",
+    "event_id": "od4k245e5sljtvbot26o63rk34"
+  },
+  "https://cmu.joinhandshake.com/events/626731?ref=events-search": {
+    "name": "*Post-Completion OPT Information Session via ZOOM. WILL NOT BE IN-PERSON!",
+    "dates": [
+      {
+        "start_date": "2021-02-24",
+        "end_date": "n/a",
+        "start_time": "12:00:00",
+        "end_time": "13:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "Until further notice, The Office of International Education\u2019s (OIE) will offer our mandatory Post-Completion OPT Information Sessions, for F-1 students who will be completing their degree programs in 2021, via ZOOM (NOT in-person). Therefore, if you want to attend this session, you MUST attend via your CMU ZOOM account. \n\nNOTE: The ZOOM meeting information will be emailed to students who have registered for this event the day before the Post-Completion OPT Information Session.\n\n",
+    "type": "1",
+    "event_id": "i64f1jqe94iic48mihslhql80k"
+  },
+  "https://cmu.joinhandshake.com/events/638436?ref=events-search": {
+    "name": "*ENGINEERING GRAD STUDENTS: Career Fair and Recruiting Prep (First Offering)",
+    "dates": [
+      {
+        "start_date": "2021-01-13",
+        "end_date": "n/a",
+        "start_time": "07:00:00",
+        "end_time": "08:30:00",
+        "timezone": "PST"
+      }
+    ],
+    "location": "n/a",
+    "description": "This workshop is for College of Engineering graduate students and will be led by the College of Engineering Graduate Student Career Consultant team.\n\nREGISTRATION REQUIRED:\nhttps://cmu.zoom.us/meeting/register/tJMocuyuqz0jG9PNU6yzsdlSZm0QGYHgGYKz\n\nAfter registering, you will receive a confirmation email containing information about joining the meeting.\n\nLearn how to prepare for virtual career fairs and online recruiting activities and gain an in-depth understanding of the virtual career fair platform that will be used for CMU\u2019s virtual fairs.\n\n\u2022 Master your self-introduction for meeting employers\n\u2022 Discover and learn to utilize Handshake to effectively identify events and job/internship opportunities\n\u2022 Understand how to successfully navigate the current career landscape.\n\u2022 Walk away with a pre-career fair checklist to properly prepare, best practices and a strategic plan for your job/internship search, and a better understanding of CMU\u2019s spring recruitment season.View full description",
+    "type": "6",
+    "event_id": "ro09i90280sp9om26kjfon9678"
   }
 }

@@ -1,6 +1,4 @@
 import datetime
-import dateutil.tz
-import pytz
 
 # format a date string 
 # :param date (str) - a date string
@@ -51,7 +49,6 @@ def format_time(time):
 # :return: a tuple of start_date, end_date, start_time, end_time, timezone
 def parse_date_time(date_time):
   date_time = date_time.replace(",", "").split()
-  print(date_time)
 
   # single day events (Monday, September 21, 2020 5:30pm - 7:30pm EDT)
   if len(date_time) == 8:
@@ -70,7 +67,6 @@ def parse_date_time(date_time):
     timezone = "EDT"
   
   return (start_date, end_date, start_time, end_time, timezone)
-
 
 # convert a date and time to datetime string for Google Calendar
 # :param time (str) - time in hh:mm:ss
