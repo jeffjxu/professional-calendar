@@ -10,6 +10,19 @@ You will need to install the selenium library for python
 ```
 pip install selenium
 ```
+Install the dateutil library for python
+```
+pip install python-dateutil
+```
+Install the pytz library for python
+```
+pip install pytz
+```
+Install GeckoDriver
+```
+brew install geckodriver
+```
+Or follow the directions for your OS
 
 ## Setting up
 1. set up your Google Calendar Authentication (https://developers.google.com/calendar/quickstart/python)
