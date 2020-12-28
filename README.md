@@ -20,18 +20,18 @@ Or follow the directions for your OS
 2. create a file named "gcal_variables.py"
 3. add your scope in gcal_variables.py
 ```
-scopes = ['https://www.googleapis.com/auth/calendar']
+scopes = ["https://www.googleapis.com/auth/calendar"]
 ```
 4. add your calendar IDs in gcal_variable.py
 ```
-cal_id = '<CALENDAR_ID>'
+cal_id = "<CALENDAR_ID>"
 ```
 5. change the "main" function in gcal.py to your own calendars
 6. change the "add_all_events" function in gcal_helper.py to your own calendars
 7. set your Handshake username and password as environment variables
 ```
-$env:HANDSHAKE_EMAIL = '<YOUR HANDSHAKE EMAIL>'
-$env:HANDSHAKE_PASSWORD = '<YOUR HANDSHAKE PASSWORD>'
+$env:HANDSHAKE_EMAIL = "<YOUR HANDSHAKE EMAIL>"
+$env:HANDSHAKE_PASSWORD = "<YOUR HANDSHAKE PASSWORD>"
 ```
 and change gcal.py to use environment variables  
 or  
